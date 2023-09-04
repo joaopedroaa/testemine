@@ -1,0 +1,1575 @@
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 18 (Java HotSpot(TM) 64-Bit Server VM 18.0.2.1+1-1) Host: Linux 5.4.17-2136.314.6.2.el8uek.aarch64 (aarch64)
+Loading libraries, please wait...
+2023-01-13 02:41:23,357 ServerMain WARN Advanced terminal features are not available in this environment
+[02:41:26 INFO]: Building unoptimized datafixer
+[02:41:27 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:41:28 INFO]: Loaded 7 recipes
+[02:41:29 INFO]: Starting minecraft server version 1.19.3
+[02:41:29 INFO]: Loading properties
+[02:41:29 INFO]: This server is running Paper version git-Paper-375 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 7a64b85)
+[02:41:29 INFO]: Server Ping Player Sample Count: 12
+[02:41:29 INFO]: Using 4 threads for Netty based IO
+[02:41:29 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:41:30 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-375]
+[02:41:30 INFO]: Default game type: SURVIVAL
+[02:41:30 INFO]: Generating keypair
+[02:41:30 INFO]: Starting Minecraft server on 0.0.0.0:25565
+[02:41:30 INFO]: Using epoll channel type
+[02:41:30 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[02:41:30 INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[02:41:30 INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[02:41:30 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:41:30 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:41:30 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:41:30 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:41:30 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:41:30 INFO]: Preparing level "world"
+[02:41:31 INFO]: Preparing start region for dimension minecraft:overworld
+[02:41:31 INFO]: Time elapsed: 128 ms
+[02:41:31 INFO]: Preparing start region for dimension minecraft:the_nether
+[02:41:31 INFO]: Time elapsed: 67 ms
+[02:41:31 INFO]: Preparing start region for dimension minecraft:the_end
+[02:41:31 INFO]: Time elapsed: 42 ms
+[02:41:31 INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[02:41:31 WARN]: [DiscordSRV] Config key ChannelUpdater is missing from the config.yml. Using the default value of [{ChannelId=0000000000000000, Format=%playercount% players online, ShutdownFormat=Server is offline, UpdateInterval=10}, {ChannelId=0000000000000000, Format=Current TPS: %tps%, ShutdownFormat=Server is offline, UpdateInterval=10}]
+[02:41:31 INFO]: Running delayed init tasks
+[02:41:31 INFO]: Done (2.226s)! For help, type "help"
+[02:41:31 INFO]: Timings Reset
+[02:41:33 INFO]: [DiscordSRV] [JDA] Login Successful!
+[02:41:33 INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:41:33 INFO]: [DiscordSRV] DiscordSRV is up-to-date. (819b02508abe8879cfc2a513fc6cea383b70b5c5)
+[02:41:34 INFO]: [DiscordSRV] [JDA] Finished Loading!
+[02:41:34 INFO]: [DiscordSRV] Found server G:VASCO!!!(930702048083709962)
+[02:41:34 INFO]: [DiscordSRV] - TC:📜︲rules(1055741677052100688)
+[02:41:34 INFO]: [DiscordSRV] - TC:📥︲entrada(1017653898531590187)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲geral(937900076293062686)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲morbius(1002461821220950066)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲clarice(958160057542008882)
+[02:41:34 INFO]: [DiscordSRV] - TC:😎︲memes(959669737523122186)
+[02:41:34 INFO]: [DiscordSRV] - TC:🐱︲pets(962809294015832114)
+[02:41:34 INFO]: [DiscordSRV] - TC:🐔︲fracontecimentos(1003757515395317810)
+[02:41:34 INFO]: [DiscordSRV] - TC:🐔︲imacontecimentos(1058507999947268236)
+[02:41:34 INFO]: [DiscordSRV] - TC:🎵︲musica(939258491858718730)
+[02:41:34 INFO]: [DiscordSRV] - TC:📤︲saida(1017654371498065972)
+[02:41:34 INFO]: [DiscordSRV] - TC:💻︲system(937899466046984232)
+[02:41:34 INFO]: [DiscordSRV] - TC:🍌︲logger-message(942681477651525672)
+[02:41:34 INFO]: [DiscordSRV] - TC:🍌︲logger-member(942680886900559912)
+[02:41:34 INFO]: [DiscordSRV] - TC:💻︲system-updates(1016665393009545286)
+[02:41:34 INFO]: [DiscordSRV] - TC:🧪︲teste(938906493577736232)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲general-vasco(930702048083709965)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲socio-colina(945395945070293073)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲beatriz(938578291131027496)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲larissa(954962239411060746)
+[02:41:34 INFO]: [DiscordSRV] - TC:💻︲secret-code(1003753741041795202)
+[02:41:34 INFO]: [DiscordSRV] - TC:🔯︲celtinismo(988627739668013107)
+[02:41:34 INFO]: [DiscordSRV] - TC:📷︲remelexo(996944020758605935)
+[02:41:34 INFO]: [DiscordSRV] - TC:🎵︲radio(953887255276171285)
+[02:41:34 INFO]: [DiscordSRV] - TC:🤖︲midjourney(1013950335913566300)
+[02:41:34 INFO]: [DiscordSRV] - TC:🙏︲tinder(940736514755797024)
+[02:41:34 INFO]: [DiscordSRV] - TC:💼︲linkedin(999029634446393425)
+[02:41:34 INFO]: [DiscordSRV] - TC:🏹︲lost-ark(941942627681579030)
+[02:41:34 INFO]: [DiscordSRV] - TC:👋︲rules-old(958151073795801108)
+[02:41:34 INFO]: [DiscordSRV] - TC:😎︲gabriel(958869197927088178)
+[02:41:34 INFO]: [DiscordSRV] - TC:🐲︲pokemon(940731487848890478)
+[02:41:34 INFO]: [DiscordSRV] - TC:🐲︲pokemon・spawn(941224826406850611)
+[02:41:34 INFO]: [DiscordSRV] Found server G:Cat Café Mine(1050144294608060558)
+[02:41:34 INFO]: [DiscordSRV] - TC:📜︲rules(1052756313555337287)
+[02:41:34 INFO]: [DiscordSRV] - TC:💬︲geral(1050144295950229617)
+[02:41:34 INFO]: [DiscordSRV] - TC:🧱︲chat(1051947091188011008)
+[02:41:34 INFO]: [DiscordSRV] - TC:🧱︲console(1051955640676921375)
+[02:41:34 INFO]: [DiscordSRV] - TC:💻︲config(1053646383451738172)
+[02:41:34 INFO]: [DiscordSRV] - TC:💻︲server-update(1052756313555337288)
+[02:41:34 INFO]: [DiscordSRV] - TC:🔊︲musica(1054923626337554452)
+[02:41:34 INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🧱︲console(1051955640676921375)
+[02:42:19 INFO]: Stopping server
+[02:42:19 INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[02:42:19 INFO]: [DiscordSRV] Saved linked accounts in 3ms
+[02:42:19 INFO]: [DiscordSRV] Shutdown completed in 429ms
+[02:42:19 INFO]: Saving players
+[02:42:19 INFO]: Saving worlds
+[02:42:19 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:42:19 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:42:19 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:42:19 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:42:20 INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.91s
+[02:42:20 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:42:20 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:42:20 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:42:20 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:42:20 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:42:21 INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.59s
+[02:42:21 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:42:21 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:42:21 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:42:21 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:42:21 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:42:21 INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
+[02:42:21 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:42:21 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:42:21 INFO]: Flushing Chunk IO
+[02:42:21 INFO]: Closing Thread Pool
+2023-01-13 02:42:21,641 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[02:42:21 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 18 (Java HotSpot(TM) 64-Bit Server VM 18.0.2.1+1-1) Host: Linux 5.4.17-2136.314.6.2.el8uek.aarch64 (aarch64)
+Loading libraries, please wait...
+2023-01-13 02:42:28,323 ServerMain WARN Advanced terminal features are not available in this environment
+[02:42:31 INFO]: Building unoptimized datafixer
+[02:42:32 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:42:33 INFO]: Loaded 7 recipes
+[02:42:34 INFO]: Starting minecraft server version 1.19.3
+[02:42:34 INFO]: Loading properties
+[02:42:34 INFO]: This server is running Paper version git-Paper-375 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 7a64b85)
+[02:42:34 INFO]: Server Ping Player Sample Count: 12
+[02:42:34 INFO]: Using 4 threads for Netty based IO
+[02:42:34 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:42:34 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-375]
+[02:42:34 INFO]: Default game type: SURVIVAL
+[02:42:34 INFO]: Generating keypair
+[02:42:35 INFO]: Starting Minecraft server on 0.0.0.0:25565
+[02:42:35 INFO]: Using epoll channel type
+[02:42:35 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[02:42:35 INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[02:42:35 INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[02:42:35 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:42:35 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:42:35 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:42:35 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:42:35 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:42:35 INFO]: Preparing level "world"
+[02:42:36 INFO]: Preparing start region for dimension minecraft:overworld
+[02:42:36 INFO]: Time elapsed: 97 ms
+[02:42:36 INFO]: Preparing start region for dimension minecraft:the_nether
+[02:42:36 INFO]: Time elapsed: 21 ms
+[02:42:36 INFO]: Preparing start region for dimension minecraft:the_end
+[02:42:36 INFO]: Time elapsed: 28 ms
+[02:42:36 INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[02:42:36 WARN]: [DiscordSRV] Config key ChannelUpdater is missing from the config.yml. Using the default value of [{ChannelId=0000000000000000, Format=%playercount% players online, ShutdownFormat=Server is offline, UpdateInterval=10}, {ChannelId=0000000000000000, Format=Current TPS: %tps%, ShutdownFormat=Server is offline, UpdateInterval=10}]
+[02:42:36 INFO]: Running delayed init tasks
+[02:42:36 INFO]: Done (2.103s)! For help, type "help"
+[02:42:36 INFO]: Timings Reset
+[02:42:38 INFO]: [DiscordSRV] [JDA] Login Successful!
+[02:42:38 INFO]: [DiscordSRV] DiscordSRV is up-to-date. (819b02508abe8879cfc2a513fc6cea383b70b5c5)
+[02:42:38 INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:42:39 INFO]: [DiscordSRV] [JDA] Finished Loading!
+[02:42:39 INFO]: [DiscordSRV] Found server G:VASCO!!!(930702048083709962)
+[02:42:39 INFO]: [DiscordSRV] - TC:📜︲rules(1055741677052100688)
+[02:42:39 INFO]: [DiscordSRV] - TC:📥︲entrada(1017653898531590187)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲geral(937900076293062686)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲morbius(1002461821220950066)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲clarice(958160057542008882)
+[02:42:39 INFO]: [DiscordSRV] - TC:😎︲memes(959669737523122186)
+[02:42:39 INFO]: [DiscordSRV] - TC:🐱︲pets(962809294015832114)
+[02:42:39 INFO]: [DiscordSRV] - TC:🐔︲fracontecimentos(1003757515395317810)
+[02:42:39 INFO]: [DiscordSRV] - TC:🐔︲imacontecimentos(1058507999947268236)
+[02:42:39 INFO]: [DiscordSRV] - TC:🎵︲musica(939258491858718730)
+[02:42:39 INFO]: [DiscordSRV] - TC:📤︲saida(1017654371498065972)
+[02:42:39 INFO]: [DiscordSRV] - TC:💻︲system(937899466046984232)
+[02:42:39 INFO]: [DiscordSRV] - TC:🍌︲logger-message(942681477651525672)
+[02:42:39 INFO]: [DiscordSRV] - TC:🍌︲logger-member(942680886900559912)
+[02:42:39 INFO]: [DiscordSRV] - TC:💻︲system-updates(1016665393009545286)
+[02:42:39 INFO]: [DiscordSRV] - TC:🧪︲teste(938906493577736232)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲general-vasco(930702048083709965)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲socio-colina(945395945070293073)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲beatriz(938578291131027496)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲larissa(954962239411060746)
+[02:42:39 INFO]: [DiscordSRV] - TC:💻︲secret-code(1003753741041795202)
+[02:42:39 INFO]: [DiscordSRV] - TC:🔯︲celtinismo(988627739668013107)
+[02:42:39 INFO]: [DiscordSRV] - TC:📷︲remelexo(996944020758605935)
+[02:42:39 INFO]: [DiscordSRV] - TC:🎵︲radio(953887255276171285)
+[02:42:39 INFO]: [DiscordSRV] - TC:🤖︲midjourney(1013950335913566300)
+[02:42:39 INFO]: [DiscordSRV] - TC:🙏︲tinder(940736514755797024)
+[02:42:39 INFO]: [DiscordSRV] - TC:💼︲linkedin(999029634446393425)
+[02:42:39 INFO]: [DiscordSRV] - TC:🏹︲lost-ark(941942627681579030)
+[02:42:39 INFO]: [DiscordSRV] - TC:👋︲rules-old(958151073795801108)
+[02:42:39 INFO]: [DiscordSRV] - TC:😎︲gabriel(958869197927088178)
+[02:42:39 INFO]: [DiscordSRV] - TC:🐲︲pokemon(940731487848890478)
+[02:42:39 INFO]: [DiscordSRV] - TC:🐲︲pokemon・spawn(941224826406850611)
+[02:42:39 INFO]: [DiscordSRV] Found server G:Cat Café Mine(1050144294608060558)
+[02:42:39 INFO]: [DiscordSRV] - TC:📜︲rules(1052756313555337287)
+[02:42:39 INFO]: [DiscordSRV] - TC:💬︲geral(1050144295950229617)
+[02:42:39 INFO]: [DiscordSRV] - TC:🧱︲chat(1051947091188011008)
+[02:42:39 INFO]: [DiscordSRV] - TC:🧱︲console(1051955640676921375)
+[02:42:39 INFO]: [DiscordSRV] - TC:💻︲config(1053646383451738172)
+[02:42:39 INFO]: [DiscordSRV] - TC:💻︲server-update(1052756313555337288)
+[02:42:39 INFO]: [DiscordSRV] - TC:🔊︲musica(1054923626337554452)
+[02:42:39 INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🧱︲console(1051955640676921375)
+[02:46:25 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[02:46:25 INFO]: PdR joined the game
+[02:46:25 INFO]: PdR[/179.187.229.145:58399] logged in with entity id 243 at ([world]-544.181195007586, 68.0, 15.874853598217495)
+[02:46:26 ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
+[02:46:26 ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[02:46:26 ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[03:27:12 INFO]: Villager EntityVillager['Villager'/6160, uuid='f6a7972c-1fe9-464b-abbe-e166a76d90a1', l='ServerLevel[world]', x=-476.66, y=14.00, z=17.86, cpos=[-30, 1], tl=3185, v=true] died, message: 'Villager hit the ground too hard'
+[03:52:23 INFO]: PdR lost connection: Disconnected
+[03:52:23 INFO]: PdR left the game
+[10:32:01 WARN]: Can't keep up! Is the server overloaded? Running 8633ms or 172 ticks behind
+[18:17:28 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[18:17:28 INFO]: PdR joined the game
+[18:17:28 INFO]: PdR[/179.187.229.145:52947] logged in with entity id 10885 at ([world_the_end]317.3055007326477, 54.5, 1.0472189263512734)
+[18:31:54 INFO]: UUID of player odanilas is 91d0df8b-c71c-3e41-af26-3f42713a34ac
+[18:31:54 INFO]: odanilas joined the game
+[18:31:54 INFO]: odanilas[/201.8.28.5:59081] logged in with entity id 14099 at ([world]-263.9410431536684, 74.0, 90.49147145893158)
+[18:32:04 WARN]: odanilas moved too quickly! -16.583454068973026,-1.2636770794189118,0.29348872171017604
+[18:32:11 WARN]: Can't keep up! Is the server overloaded? Running 9195ms or 183 ticks behind
+[18:32:11 WARN]: odanilas moved too quickly! -9.881422479466607,-7.998664020887858,-2.450844365263279
+[18:33:09 WARN]: Can't keep up! Is the server overloaded? Running 5140ms or 102 ticks behind
+[18:34:38 WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[18:37:23 WARN]: Can't keep up! Is the server overloaded? Running 8865ms or 177 ticks behind
+[18:37:51 INFO]: [Not Secure] <odanilas> boboca
+[18:38:20 WARN]: Can't keep up! Is the server overloaded? Running 5064ms or 101 ticks behind
+[18:38:24 WARN]: odanilas moved too quickly! 12.70875166093785,17.027314843425458,71.07580190645353
+[18:40:39 INFO]: [Not Secure] <PdR> boboca
+[18:44:26 INFO]: [Not Secure] <odanilas> cade voce
+[18:44:35 INFO]: [Not Secure] <PdR> Na minha casa
+[18:44:48 INFO]: [Not Secure] <odanilas> ufa
+[18:44:53 INFO]: [Not Secure] <odanilas> estou orando hoje
+[18:45:04 WARN]: Can't keep up! Is the server overloaded? Running 9771ms or 195 ticks behind
+[18:45:04 INFO]: [Not Secure] <odanilas> venha orar ao nosso senhor!
+[18:45:04 INFO]: [Not Secure] <PdR> Entrei call
+[18:45:05 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-375 (MC: 1.19.3) ---
+[18:45:05 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[18:45:05 ERROR]: ------------------------------
+[18:45:05 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:45:06 ERROR]: ------------------------------
+[18:45:06 ERROR]: Current Thread: Server thread
+[18:45:06 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[18:45:06 ERROR]: 	Stack:
+[18:45:07 ERROR]: 		net.minecraft.world.level.chunk.PalettedContainer.get(PalettedContainer.java:208)
+[18:45:07 ERROR]: 		net.minecraft.world.level.chunk.PalettedContainer.get(PalettedContainer.java:203)
+[18:45:07 ERROR]: 		net.minecraft.world.level.chunk.LevelChunkSection.getNoiseBiome(LevelChunkSection.java:305)
+[18:45:07 ERROR]: 		net.minecraft.world.level.chunk.ChunkAccess.getNoiseBiome(ChunkAccess.java:438)
+[18:45:07 ERROR]: 		net.minecraft.world.level.NaturalSpawner.getRoughBiome(NaturalSpawner.java:131)
+[18:45:07 ERROR]: 		net.minecraft.world.level.NaturalSpawner.lambda$createState$2(NaturalSpawner.java:107)
+[18:45:07 ERROR]: 		net.minecraft.world.level.SpawnerCreature$$Lambda$5168/0x0000000801b17d30.accept(Unknown Source)
+[18:45:07 ERROR]: 		net.minecraft.server.level.ServerChunkCache.getFullChunk(ServerChunkCache.java:836)
+[18:45:07 ERROR]: 		net.minecraft.server.level.ChunkProviderServer$$Lambda$4951/0x000000080176ec78.query(Unknown Source)
+[18:45:07 ERROR]: 		net.minecraft.world.level.NaturalSpawner.createState(NaturalSpawner.java:106)
+[18:45:07 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:719)
+[18:45:07 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:649)
+[18:45:07 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:686)
+[18:45:07 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1535)
+[18:45:07 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440)
+[18:45:07 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[18:45:07 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[18:45:07 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[18:45:07 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x00000008014bfce8.run(Unknown Source)
+[18:45:07 ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+[18:45:07 ERROR]: ------------------------------
+[18:45:07 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:45:07 ERROR]: ------------------------------
+[18:45:09 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-375 (MC: 1.19.3) ---
+[18:45:09 ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[18:45:09 ERROR]: ------------------------------
+[18:45:09 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:45:09 ERROR]: ------------------------------
+[18:45:09 ERROR]: Current Thread: Server thread
+[18:45:09 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[18:45:09 ERROR]: 	Stack:
+[18:45:09 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:769)
+[18:45:09 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:649)
+[18:45:09 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:686)
+[18:45:09 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1535)
+[18:45:09 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440)
+[18:45:09 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[18:45:09 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[18:45:09 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[18:45:09 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x00000008014bfce8.run(Unknown Source)
+[18:45:09 ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+[18:45:09 ERROR]: ------------------------------
+[18:45:09 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:45:09 ERROR]: ------------------------------
+[18:46:40 WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[18:53:53 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-375 (MC: 1.19.3) ---
+[18:53:53 WARN]: Can't keep up! Is the server overloaded? Running 11790ms or 235 ticks behind
+[18:53:58 ERROR]: The server has not responded for -1 seconds! Creating thread dump
+[18:53:58 ERROR]: ------------------------------
+[18:53:58 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:53:58 ERROR]: Ticking entity: minecraft:villager, entity class: net.minecraft.world.entity.npc.EntityVillager
+[18:53:58 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[18:53:58 ERROR]: Entity UUID: 7e761daf-2507-4f3c-a41f-5bac1b8675e2
+[18:53:58 ERROR]: Position: world: 'world' at location (-455.78303043194524, 0.639371483587765, 12.426875889469693)
+[18:53:59 ERROR]: Velocity: (-0.0012958251932136192, -0.016808000391483315, 0.1478292943594033) (in blocks per tick)
+[18:53:59 ERROR]: Entity AABB: AABB[-456.13165369757496, 0.6225634831962816, 12.273083028370825] -> [-455.5316536737331, 2.5725635308799975, 12.873083052212683]
+[18:53:59 ERROR]: ------------------------------
+[18:53:59 ERROR]: Current Thread: Server thread
+[18:53:59 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[18:53:59 ERROR]: 	Stack:
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.AbstractPipeline.wrapSink(AbstractPipeline.java:546)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.util.stream.ReferencePipeline.noneMatch(ReferencePipeline.java:642)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.ai.behavior.GateBehavior.tickOrStop(GateBehavior.java:71)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.ai.Brain.tickEachRunningBehavior(Brain.java:437)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.ai.Brain.tick(Brain.java:382)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.monster.piglin.Piglin.customServerAiStep(Piglin.java:314)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.Mob.serverAiStep(Mob.java:899)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3362)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.Mob.aiStep(Mob.java:640)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:45)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3009)
+[18:53:59 ERROR]: 		net.minecraft.world.entity.Mob.tick(Mob.java:402)
+[18:53:59 ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1211)
+[18:53:59 ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5347/0x0000000801b7fa50.accept(Unknown Source)
+[18:53:59 ERROR]: 		net.minecraft.world.level.Level.guardEntityTick(Level.java:918)
+[18:53:59 ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$6(ServerLevel.java:731)
+[18:53:59 ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$4952/0x00000008017741e0.accept(Unknown Source)
+[18:53:59 ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42)
+[18:53:59 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:711)
+[18:53:59 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1535)
+[18:53:59 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440)
+[18:53:59 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[18:53:59 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[18:53:59 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[18:53:59 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x00000008014bfce8.run(Unknown Source)
+[18:53:59 ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+[18:53:59 ERROR]: ------------------------------
+[18:53:59 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:53:59 ERROR]: ------------------------------
+[18:54:38 WARN]: Can't keep up! Is the server overloaded? Running 8801ms or 176 ticks behind
+[18:55:16 WARN]: Can't keep up! Is the server overloaded? Running 7512ms or 150 ticks behind
+[18:55:16 WARN]: odanilas moved too quickly! 21.87611051246006,-0.7967356006687112,7.60244721026551
+[18:55:16 WARN]: odanilas moved too quickly! 21.768252628918106,-0.7967356006687112,7.5301348256719365
+[18:55:19 INFO]: odanilas lost connection: Disconnected
+[18:55:19 INFO]: odanilas left the game
+[18:56:50 INFO]: Stopping server
+[18:56:50 INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[18:56:51 INFO]: [DiscordSRV] Saved linked accounts in 692ms
+[18:56:52 INFO]: [DiscordSRV] Shutdown completed in 2141ms
+[18:56:53 INFO]: Saving players
+[18:56:53 INFO]: PdR lost connection: Server closed
+[18:56:53 INFO]: PdR left the game
+[18:56:53 INFO]: Saving worlds
+[18:56:53 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:56:53 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:56:53 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:56:53 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:56:55 INFO]: [ChunkHolderManager] Saved 402 block chunks, 544 entity chunks, 4 poi chunks in world 'world' in 1.57s
+[18:56:55 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:56:55 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:56:55 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:56:55 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:56:55 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:56:57 INFO]: [ChunkHolderManager] Saved 172 block chunks, 243 entity chunks, 0 poi chunks in world 'world_nether' in 1.97s
+[18:56:57 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:56:57 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:56:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:56:57 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:56:57 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:56:58 INFO]: [ChunkHolderManager] Saved 321 block chunks, 45 entity chunks, 0 poi chunks in world 'world_the_end' in 0.56s
+[18:56:58 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:56:58 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:56:58 INFO]: Flushing Chunk IO
+[18:56:58 INFO]: Closing Thread Pool
+2023-01-13 18:56:58,210 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[18:56:58 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 18 (Java HotSpot(TM) 64-Bit Server VM 18.0.2.1+1-1) Host: Linux 5.4.17-2136.314.6.2.el8uek.aarch64 (aarch64)
+Loading libraries, please wait...
+2023-01-13 19:54:24,128 ServerMain WARN Advanced terminal features are not available in this environment
+[19:54:27 INFO]: Building unoptimized datafixer
+[19:54:28 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:54:30 INFO]: Loaded 7 recipes
+[19:54:30 INFO]: Starting minecraft server version 1.19.3
+[19:54:30 INFO]: Loading properties
+[19:54:30 INFO]: This server is running Paper version git-Paper-375 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 7a64b85)
+[19:54:30 INFO]: Server Ping Player Sample Count: 12
+[19:54:30 INFO]: Using 4 threads for Netty based IO
+[19:54:30 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:54:31 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-375]
+[19:54:31 INFO]: Default game type: SURVIVAL
+[19:54:31 INFO]: Generating keypair
+[19:54:31 INFO]: Starting Minecraft server on 0.0.0.0:25565
+[19:54:31 INFO]: Using epoll channel type
+[19:54:31 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[19:54:31 INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[19:54:31 INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[19:54:31 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:54:31 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:54:31 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:54:31 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:54:31 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:54:31 INFO]: Preparing level "world"
+[19:54:32 INFO]: Preparing start region for dimension minecraft:overworld
+[19:54:32 INFO]: Time elapsed: 94 ms
+[19:54:32 INFO]: Preparing start region for dimension minecraft:the_nether
+[19:54:32 INFO]: Time elapsed: 44 ms
+[19:54:32 INFO]: Preparing start region for dimension minecraft:the_end
+[19:54:32 INFO]: Time elapsed: 66 ms
+[19:54:32 INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[19:54:32 WARN]: [DiscordSRV] Config key ChannelUpdater is missing from the config.yml. Using the default value of [{ChannelId=0000000000000000, Format=%playercount% players online, ShutdownFormat=Server is offline, UpdateInterval=10}, {ChannelId=0000000000000000, Format=Current TPS: %tps%, ShutdownFormat=Server is offline, UpdateInterval=10}]
+[19:54:32 INFO]: Running delayed init tasks
+[19:54:32 INFO]: Done (2.267s)! For help, type "help"
+[19:54:32 INFO]: Timings Reset
+[19:54:34 INFO]: [DiscordSRV] [JDA] Login Successful!
+[19:54:34 INFO]: [DiscordSRV] DiscordSRV is up-to-date. (819b02508abe8879cfc2a513fc6cea383b70b5c5)
+[19:54:35 INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[19:54:35 INFO]: [DiscordSRV] [JDA] Finished Loading!
+[19:54:35 INFO]: [DiscordSRV] Found server G:VASCO!!!(930702048083709962)
+[19:54:35 INFO]: [DiscordSRV] - TC:📜︲rules(1055741677052100688)
+[19:54:35 INFO]: [DiscordSRV] - TC:📥︲entrada(1017653898531590187)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲geral(937900076293062686)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲morbius(1002461821220950066)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲clarice(958160057542008882)
+[19:54:35 INFO]: [DiscordSRV] - TC:😎︲memes(959669737523122186)
+[19:54:35 INFO]: [DiscordSRV] - TC:🐱︲pets(962809294015832114)
+[19:54:35 INFO]: [DiscordSRV] - TC:🐔︲fracontecimentos(1003757515395317810)
+[19:54:35 INFO]: [DiscordSRV] - TC:🐔︲imacontecimentos(1058507999947268236)
+[19:54:35 INFO]: [DiscordSRV] - TC:🎵︲musica(939258491858718730)
+[19:54:35 INFO]: [DiscordSRV] - TC:📤︲saida(1017654371498065972)
+[19:54:35 INFO]: [DiscordSRV] - TC:💻︲system(937899466046984232)
+[19:54:35 INFO]: [DiscordSRV] - TC:🍌︲logger-message(942681477651525672)
+[19:54:35 INFO]: [DiscordSRV] - TC:🍌︲logger-member(942680886900559912)
+[19:54:35 INFO]: [DiscordSRV] - TC:💻︲system-updates(1016665393009545286)
+[19:54:35 INFO]: [DiscordSRV] - TC:🧪︲teste(938906493577736232)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲general-vasco(930702048083709965)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲socio-colina(945395945070293073)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲beatriz(938578291131027496)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲larissa(954962239411060746)
+[19:54:35 INFO]: [DiscordSRV] - TC:💻︲secret-code(1003753741041795202)
+[19:54:35 INFO]: [DiscordSRV] - TC:🔯︲celtinismo(988627739668013107)
+[19:54:35 INFO]: [DiscordSRV] - TC:📷︲remelexo(996944020758605935)
+[19:54:35 INFO]: [DiscordSRV] - TC:🎵︲radio(953887255276171285)
+[19:54:35 INFO]: [DiscordSRV] - TC:🤖︲midjourney(1013950335913566300)
+[19:54:35 INFO]: [DiscordSRV] - TC:🙏︲tinder(940736514755797024)
+[19:54:35 INFO]: [DiscordSRV] - TC:💼︲linkedin(999029634446393425)
+[19:54:35 INFO]: [DiscordSRV] - TC:🏹︲lost-ark(941942627681579030)
+[19:54:35 INFO]: [DiscordSRV] - TC:👋︲rules-old(958151073795801108)
+[19:54:35 INFO]: [DiscordSRV] - TC:😎︲gabriel(958869197927088178)
+[19:54:35 INFO]: [DiscordSRV] - TC:🐲︲pokemon(940731487848890478)
+[19:54:35 INFO]: [DiscordSRV] - TC:🐲︲pokemon・spawn(941224826406850611)
+[19:54:35 INFO]: [DiscordSRV] Found server G:Cat Café Mine(1050144294608060558)
+[19:54:35 INFO]: [DiscordSRV] - TC:📜︲rules(1052756313555337287)
+[19:54:35 INFO]: [DiscordSRV] - TC:💬︲geral(1050144295950229617)
+[19:54:35 INFO]: [DiscordSRV] - TC:🧱︲chat(1051947091188011008)
+[19:54:35 INFO]: [DiscordSRV] - TC:🧱︲console(1051955640676921375)
+[19:54:35 INFO]: [DiscordSRV] - TC:💻︲config(1053646383451738172)
+[19:54:35 INFO]: [DiscordSRV] - TC:💻︲server-update(1052756313555337288)
+[19:54:35 INFO]: [DiscordSRV] - TC:🔊︲musica(1054923626337554452)
+[19:54:35 INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🧱︲console(1051955640676921375)
+[19:55:03 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[19:55:03 INFO]: PdR joined the game
+[19:55:03 INFO]: PdR[/179.187.229.145:53617] logged in with entity id 377 at ([world]-400.61769561622896, 61.82116293505489, -26.82560233978055)
+[19:55:04 ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
+[19:55:04 ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[19:55:04 ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[19:55:15 INFO]: UUID of player odanilas is 91d0df8b-c71c-3e41-af26-3f42713a34ac
+[19:55:15 INFO]: odanilas joined the game
+[19:55:15 INFO]: odanilas[/201.8.28.5:59186] logged in with entity id 920 at ([world]-381.34357778281304, 63.15758400465584, 14.25577088919789)
+[19:55:32 INFO]: PdR lost connection: Disconnected
+[19:55:32 INFO]: PdR left the game
+[19:56:15 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[19:56:15 INFO]: PdR joined the game
+[19:56:15 INFO]: PdR[/179.187.229.145:53992] logged in with entity id 1200 at ([world]-403.5502395505758, 63.0, -57.60522312295704)
+[20:04:58 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[20:04:58 INFO]: Velho_loli joined the game
+[20:04:58 INFO]: Velho_loli[/187.17.45.121:62133] logged in with entity id 3004 at ([world]-352.13389420268686, 35.0, 31.69999998807907)
+[20:11:09 INFO]: Velho_loli fell from a high place
+[20:18:09 INFO]: Velho_loli experienced kinetic energy
+[20:20:52 INFO]: odanilas has made the advancement [Voluntary Exile]
+[20:25:39 INFO]: Velho_loli was shot by Pillager
+[20:26:13 INFO]: Villager EntityVillager['Villager'/245, uuid='dda379df-7031-4c5e-aee9-997719aa845c', l='ServerLevel[world]', x=-269.38, y=64.56, z=51.64, cpos=[-17, 3], tl=52522229, v=true] died, message: 'Villager was slain by Vindicator'
+[20:26:15 INFO]: Villager EntityVillager['Villager'/259, uuid='f0abbc13-a93c-43df-a99c-22b8dc4123e4', l='ServerLevel[world]', x=-274.15, y=64.56, z=55.87, cpos=[-18, 3], tl=52522267, v=true] died, message: 'Villager was slain by Vindicator'
+[20:26:17 INFO]: Villager EntityVillager['Villager'/243, uuid='fe10e0c6-9453-4b99-a7a4-a4eabb5e59fb', l='ServerLevel[world]', x=-269.46, y=64.56, z=45.71, cpos=[-17, 2], tl=52522323, v=true] died, message: 'Villager was slain by Vindicator'
+[20:26:39 INFO]: Villager EntityVillager['Villager'/241, uuid='371949bc-d0ec-45d1-885d-30e9645d2bd1', l='ServerLevel[world]', x=-251.47, y=64.00, z=56.53, cpos=[-16, 3], tl=52522748, v=true] died, message: 'Villager was burnt to a crisp whilst fighting Velho_loli'
+[20:26:39 INFO]: Velho_loli was slain by Vex
+[20:26:43 INFO]: Villager EntityVillager['Villager'/242, uuid='f4d3a214-41bf-4468-84c9-1a3bef0d1945', l='ServerLevel[world]', x=-248.65, y=64.00, z=68.59, cpos=[-16, 4], tl=52522840, v=true] died, message: 'Villager was burnt to a crisp whilst fighting Velho_loli'
+[20:27:01 INFO]: Villager EntityVillager['Farmer'/258, uuid='25707763-67df-4a66-9272-8b8cb6dbe468', l='ServerLevel[world]', x=-269.30, y=64.66, z=52.51, cpos=[-17, 3], tl=52523183, v=true] died, message: 'Farmer was slain by Vindicator'
+[20:27:14 INFO]: Velho_loli was slain by Vex
+[20:28:00 INFO]: Velho_loli was shot by Pillager
+[20:28:19 INFO]: odanilas was shot by Skeleton
+[20:28:30 INFO]: Villager EntityVillager['Villager'/256, uuid='6acd4790-9be9-4524-886d-8be58b64b508', l='ServerLevel[world]', x=-306.48, y=81.00, z=-13.28, cpos=[-20, -1], tl=52524985, v=true] died, message: 'Villager was slain by Zombie'
+[20:28:53 INFO]: odanilas has completed the challenge [Hero of the Village]
+[20:30:53 INFO]: [Not Secure] <Velho_loli> zzzzzz
+[20:32:25 INFO]: Villager EntityVillager['Mason'/244, uuid='9163a73b-893c-4808-842f-f9f93da2924a', l='ServerLevel[world]', x=-264.50, y=64.00, z=12.73, cpos=[-17, 0], tl=52529668, v=true] died, message: 'Mason was slain by Velho_loli'
+[21:04:40 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[21:04:41 INFO]: Henrickxx joined the game
+[21:04:41 INFO]: Henrickxx[/187.67.232.210:51880] logged in with entity id 17766 at ([world]-575.6528767050303, 125.0, -37.543901531236735)
+[21:08:38 INFO]: [Not Secure] <Velho_loli> ZZZZZZZZZZZZZZZZ
+[21:08:44 INFO]: [Not Secure] <Velho_loli> ZZZZZZZZZZZZZZZZ
+[21:27:53 INFO]: PdR lost connection: Disconnected
+[21:27:53 INFO]: PdR left the game
+[21:30:13 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[21:30:13 INFO]: PdR joined the game
+[21:30:13 INFO]: PdR[/179.187.229.145:51988] logged in with entity id 28753 at ([world]-415.6022502623934, 63.0, -33.62408745112427)
+[21:31:24 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[21:31:24 INFO]: Aralc_HD joined the game
+[21:31:24 INFO]: Aralc_HD[/138.185.96.214:44682] logged in with entity id 29574 at ([world]-523.9790240417561, 63.0, 14.487259107648795)
+[21:32:19 INFO]: Velho_loli fell from a high place
+[21:34:25 INFO]: [Not Secure] <PdR> Pega todos
+[21:34:52 INFO]: [Not Secure] <Aralc_HD> pega voce
+[21:35:00 INFO]: [Not Secure] <Aralc_HD> eu vou so quebrar
+[21:35:43 INFO]: Velho_loli fell from a high place
+[21:43:36 INFO]: PdR fell out of the world
+[21:58:20 INFO]: Villager EntityVillager['Villager'/39126, uuid='0b39fc03-43cc-4a5a-8887-10fb2cdd6292', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=1157, v=true] died, message: 'Villager hit the ground too hard'
+[22:01:03 INFO]: [Not Secure] <Henrickxx> clara tem terra?
+[22:01:16 INFO]: [Not Secure] <Henrickxx> tyu
+[22:01:19 INFO]: [Not Secure] <Henrickxx> ty
+[22:03:37 INFO]: [Not Secure] <Aralc_HD> ta super artificial
+[22:03:46 INFO]: [Not Secure] <Henrickxx> pprt?
+[22:03:53 INFO]: [Not Secure] <Henrickxx> ajd aqui
+[22:03:56 INFO]: [Not Secure] <Aralc_HD> ta reto
+[22:04:06 INFO]: [Not Secure] <Henrickxx> quebra alguns ent
+[22:04:12 INFO]: [Not Secure] <Henrickxx> e jo outros pra cima
+[22:04:12 INFO]: [Not Secure] <Aralc_HD> ta ficando legal
+[22:04:25 INFO]: [Not Secure] <Aralc_HD> mas tem que lapidar um pouco
+[22:04:31 INFO]: [Not Secure] <Henrickxx> kkkkk
+[22:13:45 INFO]: [Not Secure] <Aralc_HD> nao usa carcalho nao, geralmente as geracoes de cascalho sao concentradas nao mistas
+[22:14:04 INFO]: [Not Secure] <Velho_loli> FDS
+[22:14:10 INFO]: [Not Secure] <Henrickxx> vs
+[22:14:12 INFO]: [Not Secure] <odanilas> perguntei?
+[22:14:20 INFO]: [Not Secure] <Aralc_HD> vai ficar artificial
+[22:14:21 INFO]: [Not Secure] <PdR> Sim loli, estamos no Final De Semana
+[22:14:26 INFO]: [Not Secure] <Henrickxx> mas sinceramente eu gosto dessa pegada cascalho e areia
+[22:14:33 INFO]: [Not Secure] <Aralc_HD> ok
+[22:14:35 INFO]: [Not Secure] <Henrickxx> acho q da um tcham legal
+[22:14:44 INFO]: [Not Secure] <Henrickxx> mas se tu quiser usar so assim eu tiro
+[22:14:50 INFO]: [Not Secure] <Henrickxx> e ponho so areia
+[22:14:55 INFO]: [Not Secure] <Aralc_HD> seis que sabem
+[22:14:58 INFO]: [Not Secure] <Velho_loli> 8===d
+[22:15:04 INFO]: [Not Secure] <Velho_loli> 8===D
+[22:15:08 INFO]: [Not Secure] <odanilas> Velho_loli seu bocó
+[22:15:19 INFO]: [Not Secure] <Velho_loli> Daniel seu boboca
+[22:15:26 INFO]: [Not Secure] <odanilas> nao é assim que trata uma mulher
+[22:15:28 INFO]: [Not Secure] <odanilas> boboca
+[22:16:12 INFO]: [Not Secure] <Velho_loli> igualdade de genero, faz o L
+[22:16:25 INFO]: [Not Secure] <odanilas> mais ela é branca
+[22:16:28 INFO]: [Not Secure] <odanilas> rs
+[22:16:38 INFO]: [Not Secure] <PdR> Vc que acha kk
+[22:19:29 INFO]: [Not Secure] <Aralc_HD> eu faco
+[22:19:40 INFO]: [Not Secure] <Aralc_HD> a decoracao
+[22:20:40 INFO]: [Not Secure] <Aralc_HD> deixa que eu moldo depois
+[22:23:27 INFO]: [Not Secure] <Aralc_HD> ta com os negocio rosa
+[22:23:38 INFO]: [Not Secure] <Aralc_HD> da minha casa da barbie
+[22:23:50 INFO]: Velho_loli experienced kinetic energy
+[22:23:57 INFO]: odanilas was slain by Phantom
+[22:23:58 INFO]: [Not Secure] <Aralc_HD> sim vou fazer uma casa da barbie
+[22:24:08 INFO]: [Not Secure] <Aralc_HD> exatamente
+[22:24:16 INFO]: [Not Secure] <Aralc_HD> mansao da barbie
+[22:24:29 INFO]: [Not Secure] <Aralc_HD> a fazenda tem
+[22:24:36 INFO]: [Not Secure] <Aralc_HD> do nao tem bicho
+[22:25:00 INFO]: [Not Secure] <Aralc_HD> nao fui eu
+[22:25:17 INFO]: [Not Secure] <Aralc_HD> rio
+[22:25:33 INFO]: [Not Secure] <Aralc_HD> depois que eu terminar aqui
+[22:29:54 INFO]: [Not Secure] <Aralc_HD> 13/01
+[22:30:07 INFO]: [Not Secure] <Aralc_HD> exatamente
+[22:30:31 INFO]: [Not Secure] <PdR> Hoje tem então?
+[22:30:39 INFO]: [Not Secure] <Aralc_HD> tem hihi
+[22:31:12 INFO]: [Not Secure] <Aralc_HD> decoracao é tudo cmg
+[22:32:47 INFO]: [Not Secure] <Aralc_HD> PORRA PDR
+[22:33:12 INFO]: [Not Secure] <Aralc_HD> nem pra colocar os andaime direito
+[22:35:26 INFO]: [Not Secure] <Aralc_HD> sim
+[22:35:40 INFO]: [Not Secure] <Aralc_HD> é o meu trabalho
+[22:35:52 INFO]: [Not Secure] <Aralc_HD> os dois
+[22:39:38 INFO]: PdR burned to death
+[22:42:15 INFO]: PdR burned to death
+[22:42:41 INFO]: Velho_loli was shot by Skeleton
+[22:42:45 INFO]: odanilas was slain by Zombie
+[22:47:18 WARN]: PdR moved wrongly!
+[22:52:38 INFO]: Aralc_HD drowned
+[22:52:57 INFO]: Henrickxx issued server command: /
+[23:00:19 INFO]: PdR lost connection: Disconnected
+[23:00:19 INFO]: PdR left the game
+[23:00:21 INFO]: odanilas lost connection: Disconnected
+[23:00:21 INFO]: odanilas left the game
+[23:00:34 INFO]: [Not Secure] <Henrickxx> dorme ou quita ai
+[23:00:36 INFO]: [Not Secure] <Henrickxx> pfvr
+[23:00:43 INFO]: [Not Secure] <Henrickxx> esses bichos são mo marola
+[23:00:53 INFO]: UUID of player odanilas is 91d0df8b-c71c-3e41-af26-3f42713a34ac
+[23:00:53 INFO]: odanilas joined the game
+[23:00:53 INFO]: odanilas[/201.8.28.5:65172] logged in with entity id 57541 at ([world]-226.5, 71.0, -63.5)
+[23:01:05 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[23:01:05 INFO]: PdR joined the game
+[23:01:05 INFO]: PdR[/179.187.229.145:58856] logged in with entity id 57633 at ([world]-226.3173715439531, 68.0, 16.084161160854272)
+[23:01:10 INFO]: Velho_loli was slain by PdR using [Excomungadora de pobre]
+[23:01:11 INFO]: PdR lost connection: Disconnected
+[23:01:11 INFO]: PdR left the game
+[23:01:28 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[23:01:28 INFO]: PdR joined the game
+[23:01:28 INFO]: PdR[/179.187.229.145:58860] logged in with entity id 57737 at ([world]-221.15955632987752, 68.0, 18.39893469712051)
+[23:01:57 INFO]: [Not Secure] <PdR> Clara?
+[23:23:08 WARN]: PdR moved wrongly!
+[23:23:10 INFO]: odanilas was doomed to fall
+[23:24:46 INFO]: PdR was slain by Aralc_HD using [Futuristiqui Flotin Homixxs]
+[23:25:19 INFO]: [Not Secure] <PdR> CADE VC SUA PIRANHA???
+[23:25:29 INFO]: [Not Secure] <Velho_loli> no rio
+[23:36:16 INFO]: PdR experienced kinetic energy
+[23:37:48 WARN]: PdR moved wrongly!
+[23:38:33 WARN]: PdR moved wrongly!
+[23:41:42 INFO]: PdR experienced kinetic energy
+[23:44:50 ERROR]: Error loading saved data: map_27
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:243) ~[?:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:228) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readTagFromDisk(DimensionDataStorage.java:92) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readSavedData(DimensionDataStorage.java:65) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.get(DimensionDataStorage.java:53) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.getMapData(ServerLevel.java:1924) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:62) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:69) ~[?:?]
+	at net.minecraft.world.item.MapItem.inventoryTick(MapItem.java:326) ~[?:?]
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:745) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:327) ~[?:?]
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:556) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3009) ~[?:?]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:272) ~[?:?]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:708) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:354) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:585) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:233) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1565) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:45:01 ERROR]: Error loading saved data: map_26
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:243) ~[?:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:228) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readTagFromDisk(DimensionDataStorage.java:92) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readSavedData(DimensionDataStorage.java:65) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.get(DimensionDataStorage.java:53) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.getMapData(ServerLevel.java:1924) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:62) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:69) ~[?:?]
+	at net.minecraft.world.item.MapItem.inventoryTick(MapItem.java:326) ~[?:?]
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:745) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:327) ~[?:?]
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:556) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3009) ~[?:?]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:272) ~[?:?]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:708) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:354) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:585) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:233) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1565) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:45:05 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:45:08 ERROR]: Error loading saved data: map_28
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:243) ~[?:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:228) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readTagFromDisk(DimensionDataStorage.java:92) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.readSavedData(DimensionDataStorage.java:65) ~[?:?]
+	at net.minecraft.world.level.storage.DimensionDataStorage.get(DimensionDataStorage.java:53) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.getMapData(ServerLevel.java:1924) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:62) ~[?:?]
+	at net.minecraft.world.item.MapItem.getSavedData(MapItem.java:69) ~[?:?]
+	at net.minecraft.world.item.MapItem.inventoryTick(MapItem.java:326) ~[?:?]
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:745) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:327) ~[?:?]
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:556) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3009) ~[?:?]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:272) ~[?:?]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:708) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:354) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:585) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:233) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1565) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:45:15 INFO]: Aralc_HD was slain by odanilas using [Comedora de gostosas]
+[23:46:18 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:46:57 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:47:01 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:47:07 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:47:19 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:47:32 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:47:40 INFO]: Aralc_HD lost connection: Disconnected
+[23:47:40 INFO]: Aralc_HD left the game
+[23:47:54 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[23:47:54 INFO]: Aralc_HD joined the game
+[23:47:54 INFO]: Aralc_HD[/138.185.96.214:44499] logged in with entity id 70650 at ([world]-545.6999999880791, 63.565516261509046, 15.699999988079071)
+[23:47:58 INFO]: Aralc_HD lost connection: Disconnected
+[23:47:58 INFO]: Aralc_HD left the game
+[23:48:09 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[23:48:09 INFO]: Aralc_HD joined the game
+[23:48:09 INFO]: Aralc_HD[/138.185.96.214:44571] logged in with entity id 70703 at ([world]-545.6999999880791, 63.0, 15.699999988079071)
+[23:48:18 INFO]: Aralc_HD lost connection: Disconnected
+[23:48:18 INFO]: Aralc_HD left the game
+[23:48:32 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[23:48:32 INFO]: Aralc_HD joined the game
+[23:48:32 INFO]: Aralc_HD[/138.185.96.214:44574] logged in with entity id 70788 at ([world]-545.6999999880791, 63.552850532043124, 15.699999988079071)
+[23:48:35 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:50:16 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:50:43 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:50:45 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:51:22 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:51:44 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:51:53 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:52:22 INFO]: PdR was slain by Aralc_HD using [Futuristiqui Flotin Homixxs]
+[23:52:37 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:53:05 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:53:31 INFO]: Velho_loli was burnt to a crisp whilst fighting Aralc_HD
+[23:53:51 WARN]: Velho_loli moved wrongly!
+[23:53:53 INFO]: PdR was slain by odanilas using [Comedora de gostosas]
+[23:54:03 INFO]: Aralc_HD was slain by odanilas using [Comedora de gostosas]
+[23:54:24 INFO]: PdR was slain by Aralc_HD using [Futuristiqui Flotin Homixxs]
+[23:54:49 INFO]: Aralc_HD was shot by odanilas
+[23:55:37 INFO]: PdR was slain by Aralc_HD using [Futuristiqui Flotin Homixxs]
+[23:56:05 INFO]: Aralc_HD was blown up by PdR
+[23:56:13 INFO]: PdR was slain by Aralc_HD using [Futuristiqui Flotin Homixxs]
+[23:56:35 INFO]: Aralc_HD was slain by odanilas using [Comedora de gostosas]
+[23:56:45 INFO]: Velho_loli was slain by odanilas using [Comedora de gostosas]
+[23:56:54 INFO]: odanilas was slain by PdR using [Excomungadora de pobre]
+[23:57:46 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:58:07 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[00:07:45 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[00:16:43 INFO]: [Not Secure] <Henrickxx> negão
+[00:16:55 INFO]: [Not Secure] <Henrickxx> quem ativou a porr do hast 2?
+[00:18:18 INFO]: Villager EntityVillager['Villager'/92815, uuid='60942602-840c-40bb-ab2c-f16ca902ecd0', l='ServerLevel[world]', x=-476.69, y=14.00, z=17.86, cpos=[-30, 1], tl=1021, v=true] died, message: 'Villager hit the ground too hard'
+[00:20:31 INFO]: Aralc_HD fell out of the world
+[00:20:34 INFO]: PdR was slain by Piglin
+[00:20:36 INFO]: Aralc_HD lost connection: Disconnected
+[00:20:36 INFO]: Aralc_HD left the game
+[00:23:42 INFO]: [Not Secure] <PdR> Marcado para as 11 entao Daniel
+[00:29:48 INFO]: [Not Secure] <Henrickxx> daniel
+[00:29:54 INFO]: [Not Secure] <Henrickxx> builda lampião pra mim
+[00:29:57 INFO]: [Not Secure] <Henrickxx> pfvr
+[00:30:10 INFO]: [Not Secure] <Velho_loli> pega la
+[00:30:13 INFO]: [Not Secure] <Henrickxx> serve
+[00:30:17 INFO]: [Not Secure] <Henrickxx> ta aonde
+[00:30:40 INFO]: [Not Secure] <Henrickxx> kd tu
+[00:30:57 INFO]: [Not Secure] <Henrickxx> ty
+[00:32:14 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[00:32:14 INFO]: Aralc_HD joined the game
+[00:32:14 INFO]: Aralc_HD[/138.185.96.214:44140] logged in with entity id 101975 at ([world]-273.5, 64.0, 140.5)
+[00:41:06 INFO]: Henrickxx lost connection: Disconnected
+[00:41:06 INFO]: Henrickxx left the game
+[00:43:57 INFO]: [Not Secure] <Aralc_HD> arranja um livro de remendo pra mim
+[00:44:05 INFO]: [Not Secure] <Aralc_HD> e netherite
+[00:44:37 INFO]: [Not Secure] <Aralc_HD> coloca logo uma porta na farm de villager
+[00:45:45 INFO]: Velho_loli was slain by Zombie
+[00:53:44 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[00:53:44 INFO]: Henrickxx joined the game
+[00:53:44 INFO]: Henrickxx[/187.67.232.210:62139] logged in with entity id 110110 at ([world]-598.4293718761924, 131.0, -17.622742741850335)
+[01:00:59 INFO]: [Not Secure] <PdR> Ta no fim?
+[01:01:03 INFO]: [Not Secure] <PdR> indo ai
+[01:01:04 INFO]: [Not Secure] <Aralc_HD> sim
+[01:02:51 INFO]: [Not Secure] <Aralc_HD> lei isso agora
+[01:04:08 INFO]: [Not Secure] <Aralc_HD> ja leu?
+[01:04:34 INFO]: [Not Secure] <PdR> Nenhum capacete é forte o suficiente para mim
+[01:11:36 INFO]: Aralc_HD was slain by Endermite
+[01:12:02 INFO]: PdR was slain by Endermite
+[01:12:23 INFO]: [Not Secure] <PdR> Literalmente Romeu e Julieta
+[01:12:53 INFO]: odanilas was slain by PdR using [Excomungadora de pobre]
+[01:12:55 INFO]: [Not Secure] <Aralc_HD> a farm de madeira ta funcionando?
+[01:13:27 INFO]: [Not Secure] <PdR> Probably
+[01:18:10 INFO]: Villager EntityVillager['Villager'/131014, uuid='462e15e6-ae81-4fae-9456-1aeebf1ffb50', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=372, v=true] died, message: 'Villager hit the ground too hard'
+[01:28:53 INFO]: odanilas lost connection: Disconnected
+[01:28:53 INFO]: odanilas left the game
+[01:47:41 INFO]: Velho_loli was slain by Phantom
+[02:15:46 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[02:17:56 INFO]: PdR lost connection: Disconnected
+[02:17:56 INFO]: PdR left the game
+[02:18:22 INFO]: Aralc_HD lost connection: Disconnected
+[02:18:22 INFO]: Aralc_HD left the game
+[02:21:24 INFO]: Henrickxx lost connection: Disconnected
+[02:21:24 INFO]: Henrickxx left the game
+[02:21:30 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[02:21:30 INFO]: Henrickxx joined the game
+[02:21:30 INFO]: Henrickxx[/187.67.232.210:64488] logged in with entity id 142916 at ([world]-594.7525124846013, 144.5, -26.352208213985598)
+[02:38:26 INFO]: Velho_loli fell from a high place
+[02:51:08 INFO]: Velho_loli lost connection: Disconnected
+[02:51:08 INFO]: Velho_loli left the game
+[02:59:35 INFO]: Henrickxx lost connection: Disconnected
+[02:59:35 INFO]: Henrickxx left the game
+[02:59:38 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[02:59:38 INFO]: Henrickxx joined the game
+[02:59:38 INFO]: Henrickxx[/187.67.232.210:63254] logged in with entity id 156302 at ([world]-265.76249998807907, 64.0, -14.553629497814361)
+[03:31:48 INFO]: Henrickxx lost connection: Disconnected
+[03:31:48 INFO]: Henrickxx left the game
+[04:11:14 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[04:11:14 INFO]: PdR joined the game
+[04:11:14 INFO]: PdR[/179.187.229.145:50262] logged in with entity id 174851 at ([world]-525.3363910761868, 62.9375, 4.390291611041629)
+[04:11:52 INFO]: PdR lost connection: Disconnected
+[04:11:52 INFO]: PdR left the game
+[12:56:00 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-375 (MC: 1.19.3) ---
+[12:56:01 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[12:56:01 ERROR]: ------------------------------
+[12:56:01 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:56:02 WARN]: Can't keep up! Is the server overloaded? Running 85138ms or 1702 ticks behind
+[12:56:02 ERROR]: ------------------------------
+[12:56:02 ERROR]: Current Thread: Server thread
+[12:56:02 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[12:56:02 ERROR]: 	Stack:
+[12:56:02 ERROR]: 		net.minecraft.world.level.chunk.PalettedContainer.get(PalettedContainer.java:208)
+[12:56:02 ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockStateFinal(LevelChunk.java:461)
+[12:56:02 ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockState(LevelChunk.java:447)
+[12:56:02 ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:781)
+[12:56:02 ERROR]: 		net.minecraft.world.level.redstone.NeighborUpdater.executeShapeUpdate(NeighborUpdater.java:47)
+[12:56:02 ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater$ShapeUpdate.runNext(CollectingNeighborUpdater.java:158)
+[12:56:02 ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:79)
+[12:56:02 ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:63)
+[12:56:02 ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.shapeUpdate(CollectingNeighborUpdater.java:30)
+[12:56:02 ERROR]: 		net.minecraft.world.level.Level.neighborShapeChanged(Level.java:741)
+[12:56:02 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.updateNeighbourShapes(BlockBehaviour.java:1019)
+[12:56:02 ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:657)
+[12:56:02 ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:603)
+[12:56:02 ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:512)
+[12:56:02 ERROR]: 		net.minecraft.world.level.block.DiodeBlock.tick(DiodeBlock.java:54)
+[12:56:02 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.tick(BlockBehaviour.java:1041)
+[12:56:02 ERROR]: 		net.minecraft.server.level.ServerLevel.tickBlock(ServerLevel.java:1159)
+[12:56:02 ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$4942/0x0000000801762be0.accept(Unknown Source)
+[12:56:02 ERROR]: 		net.minecraft.world.ticks.LevelTicks.runCollectedTicks(LevelTicks.java:197)
+[12:56:02 ERROR]: 		net.minecraft.world.ticks.LevelTicks.tick(LevelTicks.java:94)
+[12:56:02 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:673)
+[12:56:02 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1535)
+[12:56:02 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440)
+[12:56:02 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[12:56:02 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[12:56:02 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[12:56:02 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x00000008014c4978.run(Unknown Source)
+[12:56:02 ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+[12:56:02 ERROR]: ------------------------------
+[12:56:02 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:56:02 ERROR]: ------------------------------
+[12:56:02 WARN]: [DiscordSRV] [JDA] Missed 2 heartbeats! Trying to reconnect...
+[12:56:07 WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[12:56:09 INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[12:56:10 INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[12:57:10 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-375 (MC: 1.19.3) ---
+[12:57:10 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[12:57:10 ERROR]: ------------------------------
+[12:57:10 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:57:37 ERROR]: ------------------------------
+[12:57:37 ERROR]: Current Thread: Server thread
+[12:57:37 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[12:57:37 ERROR]: 	Stack:
+[12:57:40 ERROR]: 		net.minecraft.core.BlockPos.below(BlockPos.java:146)
+[12:57:40 ERROR]: 		net.minecraft.world.level.block.FireBlock.tick(FireBlock.java:210)
+[12:57:40 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.tick(BlockBehaviour.java:1041)
+[12:57:40 ERROR]: 		net.minecraft.server.level.ServerLevel.tickBlock(ServerLevel.java:1159)
+[12:57:40 ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$4942/0x0000000801762be0.accept(Unknown Source)
+[12:57:40 ERROR]: 		net.minecraft.world.ticks.LevelTicks.runCollectedTicks(LevelTicks.java:197)
+[12:57:40 ERROR]: 		net.minecraft.world.ticks.LevelTicks.tick(LevelTicks.java:94)
+[12:57:40 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:673)
+[12:57:40 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1535)
+[12:57:40 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:440)
+[12:57:40 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[12:57:40 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[12:57:40 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[12:57:40 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x00000008014c4978.run(Unknown Source)
+[12:57:40 ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+[12:57:40 ERROR]: ------------------------------
+[12:57:40 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:57:40 ERROR]: ------------------------------
+[12:57:41 WARN]: Can't keep up! Is the server overloaded? Running 40726ms or 814 ticks behind
+[13:00:43 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[13:00:43 INFO]: PdR joined the game
+[13:00:43 INFO]: PdR[/179.187.229.145:50721] logged in with entity id 254271 at ([world]-540.2412441974253, 68.0, 14.334728211689745)
+[14:03:31 INFO]: PdR was slain by Phantom
+[15:35:50 INFO]: PdR lost connection: Disconnected
+[15:35:50 INFO]: PdR left the game
+[16:11:55 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[16:11:55 INFO]: Aralc_HD joined the game
+[16:11:55 INFO]: Aralc_HD[/138.185.96.214:44566] logged in with entity id 285150 at ([world]-522.9713002496084, 63.0, 1.9328315557812534)
+[16:47:42 WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[16:58:49 INFO]: Aralc_HD lost connection: Timed out
+[16:58:49 INFO]: Aralc_HD left the game
+[17:02:10 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[17:02:10 INFO]: Aralc_HD joined the game
+[17:02:10 INFO]: Aralc_HD[/138.185.96.214:44766] logged in with entity id 298384 at ([world]-1877.6207480081678, 73.0, 766.6999999880791)
+[17:23:24 INFO]: Aralc_HD was blown up by Creeper
+[17:27:50 INFO]: Aralc_HD lost connection: Timed out
+[17:27:50 INFO]: Aralc_HD left the game
+[17:28:09 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[17:28:09 INFO]: Aralc_HD joined the game
+[17:28:09 INFO]: Aralc_HD[/138.185.96.214:44727] logged in with entity id 303377 at ([world]-524.7488113489031, 63.0, 14.699999988079071)
+[18:00:03 INFO]: Aralc_HD lost connection: Disconnected
+[18:00:03 INFO]: Aralc_HD left the game
+[18:13:15 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[18:13:15 INFO]: Aralc_HD joined the game
+[18:13:15 INFO]: Aralc_HD[/138.185.96.214:44832] logged in with entity id 309395 at ([world]-249.6672235491049, 63.0, 142.44858965476496)
+[19:13:27 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[19:13:27 INFO]: Velho_loli joined the game
+[19:13:27 INFO]: Velho_loli[/187.17.45.121:55418] logged in with entity id 320044 at ([world]-226.07233626781832, 68.0, 15.984223182757187)
+[19:18:17 INFO]: [Not Secure] <Velho_loli> durma capeta
+[19:20:32 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[19:20:32 INFO]: PdR joined the game
+[19:20:32 INFO]: PdR[/179.187.229.145:55670] logged in with entity id 321118 at ([world]-533.511848954592, 16.0, 16.06281599993376)
+[19:28:43 INFO]: PdR fell out of the world
+[19:39:26 INFO]: Aralc_HD lost connection: Timed out
+[19:39:26 INFO]: Aralc_HD left the game
+[19:39:44 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[19:39:44 INFO]: Aralc_HD joined the game
+[19:39:44 INFO]: Aralc_HD[/138.185.96.214:44592] logged in with entity id 331941 at ([world]-277.19095805028036, 63.0, 116.11178170271515)
+[19:46:27 INFO]: Villager EntityVillager['Villager'/336157, uuid='4914f28c-0667-41c4-a0bf-c764ed82ef4e', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=80, v=true] died, message: 'Villager hit the ground too hard'
+[19:52:21 INFO]: [Not Secure] <Velho_loli> que susto
+[19:53:58 WARN]: PdR moved wrongly!
+[19:55:04 INFO]: [Not Secure] <Velho_loli> pdr
+[19:55:11 INFO]: [Not Secure] <PdR> Oi meu amor
+[19:55:22 INFO]: [Not Secure] <Velho_loli> vou deixar com vc trazer os villager
+[19:55:25 INFO]: [Not Secure] <PdR> ;-;
+[19:55:29 INFO]: [Not Secure] <Velho_loli> foi mal
+[19:55:39 INFO]: [Not Secure] <Velho_loli> me perdoe
+[19:55:48 INFO]: [Not Secure] <Velho_loli> fiz um monte de coisa tbm tmnc
+[19:55:55 INFO]: [Not Secure] <PdR> _chorando_
+[19:59:49 INFO]: Villager EntityVillager['Villager'/617, uuid='acd79ea4-899e-45bc-b6ac-23c55733efe4', l='ServerLevel[world]', x=-477.51, y=6.00, z=3.49, cpos=[-30, 0], tl=4226337, v=true] died, message: 'Villager suffocated in a wall'
+[20:00:52 INFO]: Velho_loli fell from a high place
+[20:01:01 INFO]: Velho_loli lost connection: Disconnected
+[20:01:01 INFO]: Velho_loli left the game
+[20:01:58 INFO]: Villager EntityVillager['Villager'/343490, uuid='356d0459-f48e-49fc-ad87-5b926278919b', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=3672, v=true] died, message: 'Villager hit the ground too hard'
+[20:02:06 INFO]: Villager EntityVillager['Villager'/29085, uuid='134aad8a-75d2-4315-ad2e-adbc18d6cc26', l='ServerLevel[world]', x=-477.51, y=6.00, z=4.47, cpos=[-30, 0], tl=684274, v=true] died, message: 'Villager drowned'
+[20:12:32 INFO]: [Not Secure] <PdR> DORME PORRA
+[20:25:23 INFO]: Aralc_HD lost connection: Disconnected
+[20:25:23 INFO]: Aralc_HD left the game
+[20:25:46 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[20:25:46 INFO]: Aralc_HD joined the game
+[20:25:46 INFO]: Aralc_HD[/138.185.96.214:44596] logged in with entity id 359369 at ([world]-281.5439008589764, 65.0, 122.85842842667674)
+[20:42:53 INFO]: Aralc_HD lost connection: Disconnected
+[20:42:53 INFO]: Aralc_HD left the game
+[20:45:15 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[20:45:15 INFO]: Aralc_HD joined the game
+[20:45:15 INFO]: Aralc_HD[/138.185.96.214:44100] logged in with entity id 370383 at ([world]-283.6549992883359, 65.0, 113.30218263040167)
+[20:51:38 INFO]: Villager EntityVillager['Villager'/374381, uuid='43aebbfe-8c74-4df4-b55d-1e92d19daa89', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=764, v=true] died, message: 'Villager hit the ground too hard'
+[20:52:27 INFO]: PdR fell out of the world
+[21:10:28 INFO]: PdR fell from a high place
+[21:25:54 INFO]: Aralc_HD experienced kinetic energy
+[21:32:17 INFO]: UUID of player Draiena is 8c00ff14-bf49-3a39-b6a1-64868888e130
+[21:32:17 INFO]: Draiena joined the game
+[21:32:17 INFO]: Draiena[/179.187.229.145:64625] logged in with entity id 407552 at ([world]-216.02794725558033, 68.0, -55.01502411623495)
+[21:32:36 INFO]: Draiena lost connection: Disconnected
+[21:32:36 INFO]: Draiena left the game
+[21:36:34 INFO]: UUID of player Urusai is 381c12fd-949a-30fd-96d4-7a3e1375440f
+[21:36:34 INFO]: Urusai joined the game
+[21:36:34 INFO]: Urusai[/179.187.229.145:49410] logged in with entity id 409867 at ([world]-225.5, 71.0, -62.5)
+[21:36:55 INFO]: Urusai lost connection: Disconnected
+[21:36:55 INFO]: Urusai left the game
+[21:39:02 INFO]: Aralc_HD lost connection: Disconnected
+[21:39:02 INFO]: Aralc_HD left the game
+[21:39:22 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[21:39:22 INFO]: PdR2 joined the game
+[21:39:22 INFO]: PdR2[/179.187.229.145:56818] logged in with entity id 411326 at ([world]-448.282686966353, 63.0, -27.31127357601453)
+[21:42:20 INFO]: UUID of player DjUrusai is 3a660bbf-fc8b-36f4-a5ec-448f9a87eed2
+[21:42:20 INFO]: DjUrusai joined the game
+[21:42:20 INFO]: DjUrusai[/179.187.229.145:60555] logged in with entity id 412833 at ([world]-551.1595674307006, 58.0, -41.56460283877485)
+[21:43:19 INFO]: DjUrusai lost connection: Disconnected
+[21:43:19 INFO]: DjUrusai left the game
+[21:48:03 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[21:48:03 INFO]: Aralc_HD joined the game
+[21:48:03 INFO]: Aralc_HD[/138.185.96.214:44460] logged in with entity id 416614 at ([world]-215.61268018090527, 85.0, 129.3086496531753)
+[21:49:39 INFO]: Aralc_HD lost connection: Timed out
+[21:49:39 INFO]: Aralc_HD left the game
+[22:32:27 INFO]: Villager EntityVillager['Villager'/485777, uuid='2b88b9e8-ecc4-4b01-bb6b-c84fce18f1e6', l='ServerLevel[world]', x=-476.86, y=10.00, z=15.14, cpos=[-30, 0], tl=1204, v=true] died, message: 'Villager hit the ground too hard'
+[22:51:36 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[22:51:36 INFO]: Aralc_HD joined the game
+[22:51:36 INFO]: Aralc_HD[/138.59.121.191:50225] logged in with entity id 499477 at ([world]-219.5171117656706, 85.0, 123.85885746782843)
+[22:52:51 INFO]: Villager EntityVillager['Villager'/582, uuid='b87c4cb6-6036-4640-ae27-8342fd741c57', l='ServerLevel[world]', x=-225.49, y=68.00, z=28.49, cpos=[-15, 1], tl=1130959, v=true] died, message: 'Villager was slain by Zombie'
+[22:52:59 INFO]: Villager EntityVillager['Villager'/515, uuid='54f28272-84ff-45fa-8abb-d85a8571a295', l='ServerLevel[world]', x=-227.51, y=68.00, z=27.25, cpos=[-15, 1], tl=2916374, v=true] died, message: 'Villager was slain by Zombie'
+[22:53:06 INFO]: Villager EntityVillager['Villager'/587, uuid='f4173aa1-5b8e-4257-a60c-991dd69bf012', l='ServerLevel[world]', x=-226.49, y=68.00, z=26.49, cpos=[-15, 1], tl=5830111, v=true] died, message: 'Villager was slain by Zombie'
+[22:53:12 INFO]: Villager EntityVillager['Villager'/591, uuid='8aac357f-36bc-48e0-b3a0-a742a1a69668', l='ServerLevel[world]', x=-225.00, y=68.00, z=29.81, cpos=[-15, 1], tl=4735146, v=true] died, message: 'Villager was slain by Zombie'
+[22:54:16 INFO]: PdR2 lost connection: Disconnected
+[22:54:16 INFO]: PdR2 left the game
+[22:54:16 INFO]: PdR lost connection: Disconnected
+[22:54:16 INFO]: PdR left the game
+[23:22:46 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[23:22:46 INFO]: PdR joined the game
+[23:22:46 INFO]: PdR[/179.187.229.145:58845] logged in with entity id 511322 at ([world]-544.4891947211634, 68.0, 15.85919500960431)
+[23:24:39 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[23:24:39 INFO]: Henrickxx joined the game
+[23:24:39 INFO]: Henrickxx[/187.67.232.210:53658] logged in with entity id 512546 at ([world]-598.9841037740715, 65.0, -37.49218706655159)
+[23:26:16 INFO]: Henrickxx lost connection: Disconnected
+[23:26:16 INFO]: Henrickxx left the game
+[23:26:50 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[23:26:50 INFO]: PdR2 joined the game
+[23:26:50 INFO]: PdR2[/179.187.229.145:61987] logged in with entity id 513822 at ([world_nether]-501.3026866680662, 243.0, -16.41598024748055)
+[23:39:12 INFO]: PdR lost connection: Disconnected
+[23:39:12 INFO]: PdR left the game
+[23:40:32 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[23:40:32 INFO]: PdR joined the game
+[23:40:32 INFO]: PdR[/179.187.229.145:61028] logged in with entity id 530784 at ([world]-276.43345081197606, 65.0, 143.00346239517387)
+[23:43:19 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[23:44:28 INFO]: Aralc_HD was slain by PdR using [Excomungadora de pobre]
+[23:44:29 INFO]: PdR was burnt to a crisp whilst fighting Aralc_HD
+[00:01:19 INFO]: PdR2 lost connection: Disconnected
+[00:01:19 INFO]: PdR2 left the game
+[00:01:19 INFO]: PdR lost connection: Timed out
+[00:01:19 INFO]: PdR left the game
+[00:01:54 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[00:01:55 INFO]: PdR2 joined the game
+[00:01:55 INFO]: PdR2[/179.187.229.145:52884] logged in with entity id 550062 at ([world_nether]-501.44388885301214, 243.0, -16.41235216097664)
+[00:03:23 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[00:03:23 INFO]: PdR joined the game
+[00:03:23 INFO]: PdR[/179.187.229.145:52890] logged in with entity id 551211 at ([world]-180.84671661948897, 85.0, 124.60083550364116)
+[00:16:33 INFO]: PdR lost connection: Disconnected
+[00:16:33 INFO]: PdR left the game
+[00:17:45 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[00:17:46 INFO]: PdR joined the game
+[00:17:46 INFO]: PdR[/179.187.229.145:51619] logged in with entity id 561360 at ([world]-216.77092916557132, 94.0, 97.12596234423576)
+[00:27:32 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[00:27:32 INFO]: Velho_loli joined the game
+[00:27:32 INFO]: Velho_loli[/187.17.45.121:13327] logged in with entity id 572274 at ([world]-229.20103178038661, 68.5625, 13.22644419818976)
+[00:30:33 WARN]: Velho_loli moved wrongly!
+[00:41:11 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[00:41:11 INFO]: Henrickxx joined the game
+[00:41:11 INFO]: Henrickxx[/187.67.232.210:49348] logged in with entity id 589949 at ([world]-597.516724185561, 117.0, -47.32983153560143)
+[00:42:31 INFO]: PdR2 lost connection: Disconnected
+[00:42:31 INFO]: PdR2 left the game
+[00:44:25 INFO]: Henrickxx lost connection: Disconnected
+[00:44:25 INFO]: Henrickxx left the game
+[00:44:31 WARN]: Velho_loli moved too quickly! 0.0,-15.000000000000002,0.0
+[00:44:45 INFO]: Velho_loli fell from a high place
+[00:45:34 WARN]: Velho_loli was kicked due to keepalive timeout!
+[00:45:34 INFO]: Velho_loli lost connection: Timed out
+[00:45:34 INFO]: Velho_loli left the game
+[00:45:49 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[00:45:49 INFO]: Velho_loli joined the game
+[00:45:49 INFO]: Velho_loli[/187.17.45.121:62911] logged in with entity id 593431 at ([world]-284.51249998807907, 64.0, -58.7155716636621)
+[00:49:54 WARN]: Velho_loli moved wrongly!
+[00:50:52 WARN]: Velho_loli was kicked due to keepalive timeout!
+[00:50:52 INFO]: Velho_loli lost connection: Timed out
+[00:50:52 INFO]: Velho_loli left the game
+[00:51:21 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[00:51:21 INFO]: Velho_loli joined the game
+[00:51:21 INFO]: Velho_loli[/187.17.45.121:16194] logged in with entity id 597295 at ([world]-560.1590639151411, 64.52380127552989, 78.22286965175199)
+[00:52:06 WARN]: Velho_loli was kicked due to keepalive timeout!
+[00:52:06 INFO]: Velho_loli lost connection: Timed out
+[00:52:06 INFO]: Velho_loli left the game
+[00:52:33 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[00:52:33 INFO]: Velho_loli joined the game
+[00:52:33 INFO]: Velho_loli[/187.17.45.121:62944] logged in with entity id 598425 at ([world]-645.303949478834, 102.0, 61.22259571694703)
+[00:52:57 INFO]: Velho_loli lost connection: Disconnected
+[00:52:57 INFO]: Velho_loli left the game
+[00:53:39 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[00:53:39 INFO]: PdR2 joined the game
+[00:53:39 INFO]: PdR2[/179.187.229.145:61236] logged in with entity id 599165 at ([world_nether]-501.34392715683975, 243.0, -16.360534179378025)
+[01:05:46 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[01:05:46 INFO]: Velho_loli joined the game
+[01:05:46 INFO]: Velho_loli[/187.17.45.121:18152] logged in with entity id 613484 at ([world]-661.5355236458761, 91.0, 15.690042958354873)
+[01:23:26 INFO]: Aralc_HD lost connection: Disconnected
+[01:23:26 INFO]: Aralc_HD left the game
+[01:23:34 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[01:23:34 INFO]: Aralc_HD joined the game
+[01:23:34 INFO]: Aralc_HD[/138.59.121.191:50908] logged in with entity id 633950 at ([world]-271.50111156311834, 64.0, 125.1452252129951)
+[01:33:56 WARN]: Velho_loli moved wrongly!
+[01:36:44 INFO]: Aralc_HD lost connection: Disconnected
+[01:36:44 INFO]: Aralc_HD left the game
+[01:42:00 INFO]: Velho_loli was doomed to fall
+[02:12:24 INFO]: PdR lost connection: Disconnected
+[02:12:24 INFO]: PdR left the game
+[02:12:24 INFO]: PdR2 lost connection: Disconnected
+[02:12:24 INFO]: PdR2 left the game
+[02:25:23 INFO]: Velho_loli lost connection: Disconnected
+[02:25:23 INFO]: Velho_loli left the game
+[03:07:17 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[03:07:17 INFO]: PdR2 joined the game
+[03:07:17 INFO]: PdR2[/179.187.229.145:56279] logged in with entity id 656058 at ([world_nether]-501.5733482787616, 243.0, -16.468243360904953)
+[04:39:57 INFO]: PdR2 lost connection: Disconnected
+[04:39:57 INFO]: PdR2 left the game
+[16:09:54 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[16:09:54 INFO]: Aralc_HD joined the game
+[16:09:54 INFO]: Aralc_HD[/138.59.121.191:50111] logged in with entity id 686218 at ([world]-477.135977667486, 62.0, 84.23488045401275)
+[16:22:54 INFO]: [Not Secure] <Aralc_HD> 1800 -5300
+[16:25:43 INFO]: Aralc_HD fell from a high place
+[16:27:03 INFO]: [Not Secure] <Aralc_HD> 225 -663
+[16:38:28 INFO]: Aralc_HD has completed the challenge [Return to Sender]
+[16:55:27 WARN]: Skipping Entity with id minecraft:camel
+[16:57:07 INFO]: [Not Secure] <Aralc_HD> 1880 -5303
+[17:23:34 INFO]: Aralc_HD tried to swim in lava
+[17:27:53 INFO]: Aralc_HD experienced kinetic energy
+[17:37:22 INFO]: Villager EntityVillager['Villager'/701734, uuid='3b984642-1026-4d7b-8a33-ab395507489a', l='ServerLevel[world]', x=-476.86, y=10.00, z=15.14, cpos=[-30, 0], tl=1264, v=true] died, message: 'Villager hit the ground too hard'
+[17:44:34 INFO]: Aralc_HD fell out of the world
+[17:59:56 INFO]: Aralc_HD drowned
+[19:07:38 INFO]: Villager EntityVillager['Villager'/721919, uuid='65220ea4-ff37-44d5-9142-abad128262c5', l='ServerLevel[world]', x=-476.85, y=14.00, z=17.86, cpos=[-30, 1], tl=2757, v=true] died, message: 'Villager hit the ground too hard'
+[19:51:34 INFO]: Villager EntityVillager['Villager'/728562, uuid='96ed248a-21bd-4d8e-b359-b1ee257c9439', l='ServerLevel[world]', x=-476.85, y=14.00, z=17.86, cpos=[-30, 1], tl=5643, v=true] died, message: 'Villager hit the ground too hard'
+[20:14:45 INFO]: Aralc_HD lost connection: Disconnected
+[20:14:45 INFO]: Aralc_HD left the game
+[20:24:42 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[20:24:42 INFO]: Aralc_HD joined the game
+[20:24:42 INFO]: Aralc_HD[/138.59.121.191:50817] logged in with entity id 732318 at ([world]-488.6353353526055, 63.0, 32.5075725628546)
+[20:50:58 INFO]: Villager EntityVillager['Villager'/735877, uuid='3ea80f9e-8be3-4fc9-b81f-7bef2f2500d2', l='ServerLevel[world]', x=-476.86, y=10.00, z=15.14, cpos=[-30, 0], tl=935, v=true] died, message: 'Villager hit the ground too hard'
+[21:00:49 INFO]: Aralc_HD lost connection: Disconnected
+[21:00:49 INFO]: Aralc_HD left the game
+[21:04:53 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[21:04:53 INFO]: Aralc_HD joined the game
+[21:04:53 INFO]: Aralc_HD[/138.59.121.191:50332] logged in with entity id 737474 at ([world]-479.5928049186826, 67.0, 48.31088418890951)
+[21:06:32 INFO]: Villager EntityVillager['Villager'/737433, uuid='9bacc1c9-c71f-46be-8d6a-da0b09013ab0', l='ServerLevel[world]', x=-476.85, y=14.00, z=17.86, cpos=[-30, 1], tl=2456, v=true] died, message: 'Villager hit the ground too hard'
+[21:18:34 INFO]: Villager EntityVillager['Villager'/738930, uuid='384675ac-35b9-47c9-b8c8-43460e0730a0', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=6768, v=true] died, message: 'Villager hit the ground too hard'
+[21:20:50 INFO]: Villager EntityVillager['Villager'/615, uuid='902bbb9b-2f41-48ae-865a-24c0192abded', l='ServerLevel[world]', x=-456.19, y=0.66, z=10.83, cpos=[-29, 0], tl=6350662, v=true] died, message: 'Villager was squished too much'
+[22:23:55 INFO]: Aralc_HD lost connection: Disconnected
+[22:23:55 INFO]: Aralc_HD left the game
+[22:43:54 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[22:43:54 INFO]: Aralc_HD joined the game
+[22:43:54 INFO]: Aralc_HD[/138.59.121.191:50415] logged in with entity id 749494 at ([world]-490.49554439765984, 64.0, 40.92090613318386)
+[23:02:21 INFO]: Villager EntityVillager['Villager'/752019, uuid='d42a48e1-c4ab-4287-9ce7-2ae4e6be3d7e', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=1439, v=true] died, message: 'Villager hit the ground too hard'
+[23:22:09 INFO]: Aralc_HD lost connection: Disconnected
+[23:22:09 INFO]: Aralc_HD left the game
+[23:59:38 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[23:59:38 INFO]: Aralc_HD joined the game
+[23:59:39 INFO]: Aralc_HD[/138.59.121.191:50342] logged in with entity id 755722 at ([world]-478.05821457076615, 69.0, 26.225996510041842)
+[00:02:58 INFO]: Villager EntityVillager['Villager'/509, uuid='05344f68-dc17-4df1-ba19-ca589852eeaa', l='ServerLevel[world]', x=-456.70, y=0.25, z=10.85, cpos=[-29, 0], tl=4861832, v=true] died, message: 'Villager was squished too much'
+[00:03:01 INFO]: Villager EntityVillager['Villager'/604, uuid='df6b46ab-62f4-433f-94dd-10f11e02c6fe', l='ServerLevel[world]', x=-456.11, y=0.38, z=10.88, cpos=[-29, 0], tl=7591885, v=true] died, message: 'Villager was squished too much'
+[00:03:05 INFO]: Villager EntityVillager['Villager'/588, uuid='cb1c4216-3c1d-4d69-a023-0b9961c8533a', l='ServerLevel[world]', x=-456.34, y=0.61, z=10.77, cpos=[-29, 0], tl=7095536, v=true] died, message: 'Villager was squished too much'
+[00:13:31 INFO]: Aralc_HD lost connection: Disconnected
+[00:13:31 INFO]: Aralc_HD left the game
+[00:13:39 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[00:13:39 INFO]: Aralc_HD joined the game
+[00:13:39 INFO]: Aralc_HD[/138.59.121.191:50671] logged in with entity id 757842 at ([world]-490.42773454404363, 64.0, 39.83642856819518)
+[00:29:13 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[00:29:13 INFO]: Henrickxx joined the game
+[00:29:13 INFO]: Henrickxx[/187.67.232.210:61978] logged in with entity id 761148 at ([world]-582.0462453463314, 63.0, -41.28119191522343)
+[00:37:49 INFO]: [Not Secure] <Aralc_HD> tem como ce dormir?
+[00:37:55 INFO]: [Not Secure] <Henrickxx> 2s
+[00:38:10 INFO]: [Not Secure] <Aralc_HD> ok
+[00:38:17 INFO]: [Not Secure] <Henrickxx> ja foi
+[00:38:27 INFO]: [Not Secure] <Aralc_HD> show
+[00:42:58 INFO]: [Not Secure] <Henrickxx> 17h
+[00:43:22 INFO]: [Not Secure] <Henrickxx> 9x9 17h
+[00:46:43 INFO]: Villager EntityVillager['Villager'/763731, uuid='3eec6c38-557f-4044-ba51-2869c4c181f6', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=417, v=true] died, message: 'Villager hit the ground too hard'
+[00:49:34 INFO]: [Not Secure] <Aralc_HD> dorme ai pls
+[00:57:28 INFO]: Villager EntityVillager['Villager'/569, uuid='40cdb7ab-c14c-419f-a9fe-5e77917849ee', l='ServerLevel[world]', x=-456.20, y=0.14, z=10.87, cpos=[-29, 0], tl=5030640, v=true] died, message: 'Villager was squished too much'
+[00:57:56 INFO]: Villager EntityVillager['Villager'/765416, uuid='1f499683-7095-4548-a7f0-bd8107559392', l='ServerLevel[world]', x=-476.15, y=10.00, z=15.14, cpos=[-30, 0], tl=476, v=true] died, message: 'Villager hit the ground too hard'
+[01:01:02 INFO]: Henrickxx lost connection: Disconnected
+[01:01:02 INFO]: Henrickxx left the game
+[01:01:09 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[01:01:09 INFO]: Henrickxx joined the game
+[01:01:09 INFO]: Henrickxx[/187.67.232.210:61881] logged in with entity id 766104 at ([world]-593.7725047748951, 132.0, -56.403851880201366)
+[01:03:20 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[01:03:20 INFO]: PdR2 joined the game
+[01:03:20 INFO]: PdR2[/179.187.229.145:51377] logged in with entity id 766481 at ([world_nether]-498.0659901494888, 238.0, -14.631985737197784)
+[01:06:08 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[01:06:08 INFO]: PdR joined the game
+[01:06:08 INFO]: PdR[/179.187.229.145:51456] logged in with entity id 768242 at ([world]-464.6550764655133, 64.0, -28.961397075064607)
+[01:10:54 INFO]: Villager EntityVillager['Villager'/537, uuid='4b98c507-fea9-4758-9383-7dd128b6f0ec', l='ServerLevel[world]', x=-456.22, y=0.38, z=10.89, cpos=[-29, 0], tl=3204517, v=true] died, message: 'Villager was squished too much'
+[01:20:43 INFO]: Henrickxx lost connection: Disconnected
+[01:20:43 INFO]: Henrickxx left the game
+[01:20:50 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[01:20:50 INFO]: Henrickxx joined the game
+[01:20:50 INFO]: Henrickxx[/187.67.232.210:61949] logged in with entity id 784524 at ([world]-603.8374282050876, 132.0, -49.47053841014894)
+[01:22:12 INFO]: Henrickxx lost connection: Disconnected
+[01:22:12 INFO]: Henrickxx left the game
+[01:44:55 INFO]: Aralc_HD lost connection: Disconnected
+[01:44:55 INFO]: Aralc_HD left the game
+[01:55:36 INFO]: PdR fell from a high place
+[02:05:23 INFO]: PdR fell out of the world
+[02:44:43 INFO]: PdR fell from a high place
+[03:20:50 INFO]: PdR fell out of the world
+[03:21:43 WARN]: PdR moved wrongly!
+[03:23:45 INFO]: PdR fell from a high place
+[03:58:16 INFO]: PdR fell from a high place
+[04:21:36 INFO]: Villager EntityVillager['Villager'/610, uuid='657ff75e-2b4a-4843-86be-2ef42d8a24c5', l='ServerLevel[world]', x=-456.70, y=0.31, z=10.83, cpos=[-29, 0], tl=5742305, v=true] died, message: 'Villager was squished too much'
+[04:21:38 INFO]: Villager EntityVillager['Villager'/613103, uuid='f85b8e32-92b9-4d7c-8081-57d1ffc03317', l='ServerLevel[world]', x=-456.19, y=0.45, z=10.84, cpos=[-29, 0], tl=688196, v=true] died, message: 'Villager was squished too much'
+[04:22:20 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[04:22:20 INFO]: Henrickxx joined the game
+[04:22:20 INFO]: Henrickxx[/187.67.232.210:61461] logged in with entity id 891318 at ([world]-602.3167294690581, 128.0, -52.989290239955444)
+[04:41:06 INFO]: Villager EntityVillager['Villager'/589, uuid='1ddef2f9-5f9d-46ec-93b1-a31cd06272f6', l='ServerLevel[world]', x=-456.16, y=0.36, z=10.76, cpos=[-29, 0], tl=2593979, v=true] died, message: 'Villager was squished too much'
+[04:41:14 INFO]: Villager EntityVillager['Villager'/556, uuid='cec456c1-0078-4ad6-b13c-a7e151e679e5', l='ServerLevel[world]', x=-456.18, y=0.52, z=10.85, cpos=[-29, 0], tl=5857876, v=true] died, message: 'Villager was squished too much'
+[04:56:14 INFO]: Villager EntityVillager['Villager'/525, uuid='1c85170d-d65c-4624-a1f8-008d28f92ac1', l='ServerLevel[world]', x=-456.70, y=1.37, z=10.81, cpos=[-29, 0], tl=7931403, v=true] died, message: 'Villager was squished too much'
+[04:56:18 INFO]: Villager EntityVillager['Villager'/549, uuid='0beaa93c-3389-44c4-b696-f915046e9baf', l='ServerLevel[world]', x=-456.11, y=0.40, z=10.87, cpos=[-29, 0], tl=7786196, v=true] died, message: 'Villager was squished too much'
+[04:56:57 INFO]: Villager EntityVillager['Villager'/919902, uuid='61922fd2-4146-499a-9f42-f126073086c1', l='ServerLevel[world]', x=-476.86, y=10.00, z=16.07, cpos=[-30, 1], tl=20455, v=true] died, message: 'Villager hit the ground too hard'
+[04:58:24 INFO]: Villager EntityVillager['Villager'/601, uuid='82efe195-d430-4889-a4ac-1f9cacdbf24d', l='ServerLevel[world]', x=-456.13, y=0.40, z=10.82, cpos=[-29, 0], tl=4232006, v=true] died, message: 'Villager was squished too much'
+[04:58:26 INFO]: Villager EntityVillager['Villager'/596, uuid='dc46467b-e3d4-46ab-8321-f2fdac5249cd', l='ServerLevel[world]', x=-456.18, y=0.41, z=10.87, cpos=[-29, 0], tl=4231590, v=true] died, message: 'Villager was squished too much'
+[05:01:26 INFO]: Villager EntityVillager['Villager'/927162, uuid='57e78bf5-0adf-4e2c-a9f1-b98a0e04b952', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.92, cpos=[-30, 1], tl=1883, v=true] died, message: 'Villager hit the ground too hard'
+[05:05:05 INFO]: PdR lost connection: Disconnected
+[05:05:05 INFO]: PdR left the game
+[05:05:37 INFO]: Henrickxx lost connection: Disconnected
+[05:05:37 INFO]: Henrickxx left the game
+[05:06:14 INFO]: PdR2 lost connection: Disconnected
+[05:06:14 INFO]: PdR2 left the game
+[13:18:27 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[13:18:27 INFO]: PdR2 joined the game
+[13:18:27 INFO]: PdR2[/179.187.229.145:52615] logged in with entity id 932975 at ([world_nether]-496.2982989939929, 234.0, -11.503430347830369)
+[13:41:36 INFO]: PdR2 lost connection: Disconnected
+[13:41:36 INFO]: PdR2 left the game
+[13:43:07 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[13:43:07 INFO]: PdR joined the game
+[13:43:07 INFO]: PdR[/179.187.229.145:57612] logged in with entity id 945301 at ([world]-544.6304139561299, 69.0, 13.431669002754207)
+[13:45:00 INFO]: PdR fell from a high place
+[14:02:35 INFO]: PdR lost connection: Disconnected
+[14:02:35 INFO]: PdR left the game
+[14:23:37 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[14:23:37 INFO]: PdR joined the game
+[14:23:37 INFO]: PdR[/179.187.229.145:52449] logged in with entity id 951353 at ([world]-343.8221060011062, 63.0, -57.19006488629745)
+[14:24:06 INFO]: PdR lost connection: Disconnected
+[14:24:06 INFO]: PdR left the game
+[14:24:19 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[14:24:19 INFO]: PdR joined the game
+[14:24:19 INFO]: PdR[/179.187.229.145:52456] logged in with entity id 951440 at ([world]-343.8221060011062, 63.0, -57.19006488629745)
+[15:06:05 INFO]: PdR lost connection: Disconnected
+[15:06:05 INFO]: PdR left the game
+[20:26:28 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[20:26:28 INFO]: PdR joined the game
+[20:26:28 INFO]: PdR[/179.187.229.145:58081] logged in with entity id 959377 at ([world]-257.30000001192093, 59.0, -87.87346753071958)
+[21:29:00 INFO]: PdR fell from a high place
+[21:41:01 INFO]: PdR lost connection: Disconnected
+[21:41:01 INFO]: PdR left the game
+[00:15:21 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[00:15:21 INFO]: Velho_loli joined the game
+[00:15:21 INFO]: Velho_loli[/187.17.45.121:55998] logged in with entity id 973982 at ([world]-229.46127200778278, 69.0, 14.455914234534307)
+[00:31:12 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[00:31:12 INFO]: PdR joined the game
+[00:31:12 INFO]: PdR[/179.187.229.145:52532] logged in with entity id 976021 at ([world]-277.34705415232446, 64.0, -55.35256537166467)
+[00:31:48 INFO]: [Not Secure] <Velho_loli> vem call
+[00:31:55 INFO]: [Not Secure] <PdR> ;-;
+[00:32:05 INFO]: [Not Secure] <Velho_loli> vamo que traze
+[00:32:10 INFO]: [Not Secure] <Velho_loli> mais villagger
+[00:32:38 INFO]: [Not Secure] <PdR> Quem quebrou os trilhos? o-o
+[00:32:43 INFO]: [Not Secure] <Velho_loli> eu
+[00:32:47 INFO]: [Not Secure] <Velho_loli> a anos
+[00:39:39 INFO]: [Not Secure] <Velho_loli> espere eu falar quando mandar
+[00:40:10 INFO]: [Not Secure] <PdR> opa
+[00:40:14 INFO]: [Not Secure] <Velho_loli> poha
+[00:40:47 INFO]: [Not Secure] <PdR> Quando falar eu mando
+[00:41:17 INFO]: [Not Secure] <Velho_loli> mande
+[00:41:49 INFO]: [Not Secure] <Velho_loli> tem madeira?
+[00:42:05 INFO]: [Not Secure] <Velho_loli> pra fazer composteira
+[00:43:08 INFO]: [Not Secure] <PdR> Aqui
+[00:43:38 INFO]: [Not Secure] <Velho_loli> de bata a esse homem
+[00:43:48 INFO]: [Not Secure] <PdR> Tudo que eu tinha eu te dei
+[00:43:51 INFO]: [Not Secure] <PdR> Acabou
+[00:44:38 INFO]: [Not Secure] <Velho_loli> eles comeram
+[00:44:45 INFO]: [Not Secure] <Velho_loli> e n plantaram
+[00:45:23 INFO]: [Not Secure] <PdR> Acha uma batata por ai
+[00:45:40 INFO]: [Not Secure] <Velho_loli> to a procura enquanto isso prepara pra os outros villagers
+[00:47:35 INFO]: [Not Secure] <Velho_loli> achei dua
+[00:47:39 INFO]: [Not Secure] <Velho_loli> 2
+[00:48:14 INFO]: [Not Secure] <Velho_loli> é dois em cada pdr
+[00:48:29 INFO]: [Not Secure] <Velho_loli> n ta indo no mesmo n ne?
+[00:48:38 INFO]: [Not Secure] <PdR> nao mandei
+[00:48:49 INFO]: [Not Secure] <PdR> vou farmar cenoura e beterraba
+[00:48:53 INFO]: [Not Secure] <Velho_loli> blz
+[00:54:35 INFO]: [Not Secure] <Velho_loli> vou farmar bataba
+[00:54:48 INFO]: [Not Secure] <Velho_loli> me help
+[00:54:58 INFO]: [Not Secure] <PdR> levando 1
+[00:55:00 INFO]: [Not Secure] <PdR> onde?
+[01:01:18 INFO]: [Not Secure] <Velho_loli> thx
+[01:01:37 INFO]: [Not Secure] <PdR> O-o
+[01:03:49 INFO]: [Not Secure] <PdR> O amor es
+[01:03:56 INFO]: [Not Secure] <PdR> está no ar
+[01:04:05 INFO]: [Not Secure] <PdR> Que lindo
+[01:04:06 INFO]: [Not Secure] <Velho_loli> sim
+[01:04:08 INFO]: [Not Secure] <Velho_loli> que lindo
+[01:04:22 INFO]: [Not Secure] <PdR> Aquilo ali que é s.e.x.o?
+[01:05:22 INFO]: [Not Secure] <PdR> Hey brothers
+[01:07:58 INFO]: [Not Secure] <Velho_loli> dorme
+[01:08:02 INFO]: PdR lost connection: Disconnected
+[01:08:02 INFO]: PdR left the game
+[01:11:27 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[01:11:27 INFO]: PdR joined the game
+[01:11:27 INFO]: PdR[/179.187.229.145:56750] logged in with entity id 986018 at ([world]-217.11730678841593, 68.0, 33.63942320183812)
+[01:11:47 INFO]: [Not Secure] <Velho_loli> falta o de beterraba agr
+[01:13:02 INFO]: Velho_loli fell from a high place
+[01:15:24 INFO]: [Not Secure] <PdR> tem que ter semente de beterra tb?
+[01:15:29 INFO]: [Not Secure] <Velho_loli> sim
+[01:17:13 INFO]: [Not Secure] <Velho_loli> thx
+[01:17:50 INFO]: [Not Secure] <Velho_loli> é muit lindo fml
+[01:18:04 INFO]: [Not Secure] <Velho_loli> nem parece que dois deles daqui a pouco vao morrer
+[01:18:24 INFO]: [Not Secure] <PdR> SEU MONSTRO
+[01:18:34 INFO]: [Not Secure] <Velho_loli> esperem eles plantar
+[01:18:45 INFO]: [Not Secure] <Velho_loli> e mata e deixa um em cada
+[01:19:30 INFO]: [Not Secure] <Velho_loli> zzzzzz
+[01:20:26 INFO]: [Not Secure] <PdR> Eles sao de que?
+[01:20:38 INFO]: [Not Secure] <Velho_loli> uchiha
+[01:20:58 INFO]: [Not Secure] <PdR> vem aqui
+[01:21:15 INFO]: [Not Secure] <Velho_loli> éé
+[01:21:15 INFO]: [Not Secure] <PdR> ta meio misturado
+[01:22:00 INFO]: [Not Secure] <PdR> kkkkkkk
+[01:22:03 INFO]: [Not Secure] <Velho_loli> eu acho que embaralhei sem querer
+[01:35:01 WARN]: Velho_loli moved wrongly!
+[01:35:02 WARN]: Velho_loli moved wrongly!
+[01:55:28 WARN]: [DiscordSRV] [JDA] Missed 2 heartbeats! Trying to reconnect...
+[01:59:23 INFO]: PdR fell out of the world
+[02:01:21 INFO]: Velho_loli lost connection: Disconnected
+[02:01:21 INFO]: Velho_loli left the game
+[02:06:46 WARN]: PdR moved wrongly!
+[02:35:33 INFO]: Villager EntityVillager['Villager'/533, uuid='b6871d2e-1f5d-4fb7-87ff-fbdd616422e6', l='ServerLevel[world]', x=-165.50, y=68.06, z=16.12, cpos=[-11, 1], tl=4110317, v=true] died, message: 'Villager suffocated in a wall'
+[03:07:20 INFO]: PdR lost connection: Disconnected
+[03:07:20 INFO]: PdR left the game
+[13:47:48 INFO]: Villager EntityVillager['Librarian'/514, uuid='10789024-0bd2-44f1-9ee5-6468911b0c33', l='ServerLevel[world]', x=-243.93, y=64.50, z=17.08, cpos=[-16, 1], tl=9051511, v=true] died, message: 'Librarian hit the ground too hard'
+[15:26:45 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[15:26:45 INFO]: PdR joined the game
+[15:26:45 INFO]: PdR[/179.187.229.145:61646] logged in with entity id 1019987 at ([world]-543.7605606770871, 68.0, 15.426809577335876)
+[15:43:23 WARN]: PdR moved wrongly!
+[15:52:45 INFO]: Villager EntityVillager['Villager'/1023714, uuid='f79ff3fb-5fe9-471a-9876-534690c241a6', l='ServerLevel[world]', x=-476.85, y=14.00, z=17.86, cpos=[-30, 1], tl=14766, v=true] died, message: 'Villager hit the ground too hard'
+[16:04:37 WARN]: PdR moved wrongly!
+[16:45:53 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[16:45:53 INFO]: Henrickxx joined the game
+[16:45:53 INFO]: Henrickxx[/187.67.232.210:51655] logged in with entity id 1033842 at ([world]-548.339001829163, 86.0625, 289.3194070606371)
+[16:46:20 INFO]: Henrickxx lost connection: Disconnected
+[16:46:20 INFO]: Henrickxx left the game
+[16:46:22 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[16:46:22 INFO]: Henrickxx joined the game
+[16:46:22 INFO]: Henrickxx[/187.67.232.210:60050] logged in with entity id 1034116 at ([world]-542.2670333929254, 86.0, 282.2147887313805)
+[16:46:25 INFO]: Henrickxx lost connection: Disconnected
+[16:46:25 INFO]: Henrickxx left the game
+[16:46:29 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[16:46:29 INFO]: Henrickxx joined the game
+[16:46:29 INFO]: Henrickxx[/187.67.232.210:60054] logged in with entity id 1034190 at ([world]-542.2670333929254, 86.0, 282.2147887313805)
+[16:48:34 WARN]: PdR moved wrongly!
+[16:48:34 WARN]: PdR moved wrongly!
+[16:48:35 WARN]: PdR moved wrongly!
+[16:48:35 WARN]: PdR moved wrongly!
+[16:48:35 WARN]: PdR moved wrongly!
+[16:48:35 WARN]: PdR moved wrongly!
+[16:48:35 WARN]: PdR moved wrongly!
+[16:52:55 INFO]: PdR fell out of the world
+[16:53:56 WARN]: PdR moved wrongly!
+[17:22:03 INFO]: Henrickxx fell out of the world
+[17:43:23 INFO]: PdR experienced kinetic energy
+[17:44:05 INFO]: Villager EntityVillager['Villager'/522, uuid='c7b3c90b-02a9-48bc-a7e5-2e14f4e93cff', l='ServerLevel[world]', x=-526.51, y=16.00, z=34.84, cpos=[-33, 2], tl=4515569, v=true] died, message: 'Villager suffocated in a wall'
+[17:52:52 INFO]: Villager EntityVillager['Farmer'/761942, uuid='5c29af90-eb33-4d8d-bd47-e3860708550c', l='ServerLevel[world]', x=-215.31, y=67.94, z=1.69, cpos=[-14, 0], tl=1626669, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[17:53:08 INFO]: Villager EntityVillager['Farmer'/62040, uuid='93b6fd2e-605d-4ee9-857c-e9968352c221', l='ServerLevel[world]', x=-191.49, y=67.94, z=9.31, cpos=[-12, 0], tl=3046951, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[17:53:17 INFO]: Villager EntityVillager['Farmer'/613, uuid='cfd23fc7-6e86-4d91-98e2-fdc2b364fb75', l='ServerLevel[world]', x=-215.32, y=67.94, z=24.26, cpos=[-14, 1], tl=6656909, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[17:53:17 INFO]: Villager EntityVillager['Farmer'/546, uuid='750fc10b-a660-4c98-a6fd-428577236e49', l='ServerLevel[world]', x=-214.46, y=67.94, z=22.77, cpos=[-14, 1], tl=7431479, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[17:53:54 INFO]: Villager EntityVillager['Farmer'/513, uuid='c7350124-60c4-4c2e-a828-39075826d0f2', l='ServerLevel[world]', x=-197.57, y=67.94, z=29.66, cpos=[-13, 1], tl=9082929, v=true] died, message: 'Farmer was slain by PdR'
+[17:53:57 INFO]: Villager EntityVillager['Villager'/987999, uuid='2add2aed-8aa7-4feb-b31d-4cafed989272', l='ServerLevel[world]', x=-203.01, y=67.94, z=26.63, cpos=[-13, 1], tl=1195909, v=true] died, message: 'Villager was slain by PdR'
+[17:55:57 INFO]: Villager EntityVillager['Villager'/175174, uuid='87b5fbec-6855-4416-a129-f7e656597405', l='ServerLevel[world]', x=-476.50, y=0.49, z=5.09, cpos=[-30, 0], tl=1789842, v=true] died, message: 'Villager suffocated in a wall'
+[18:00:33 INFO]: Villager EntityVillager['Villager'/1070095, uuid='8bb28c72-0119-4550-879a-1ac7e30790cd', l='ServerLevel[world]', x=-476.15, y=10.00, z=15.14, cpos=[-30, 0], tl=9516, v=true] died, message: 'Villager hit the ground too hard'
+[18:09:24 INFO]: [Not Secure] <PdR> ZzZzZ
+[18:09:29 INFO]: [Not Secure] <PdR> Soninhoxx
+[18:10:43 INFO]: Henrickxx lost connection: Disconnected
+[18:10:43 INFO]: Henrickxx left the game
+[18:47:19 INFO]: Villager EntityVillager['Villager'/44513, uuid='53f5234d-0db2-4ec5-bcd8-a747ba2f7eea', l='ServerLevel[world]', x=-532.33, y=15.94, z=45.24, cpos=[-34, 2], tl=2204836, v=true] died, message: 'Villager was slain by PdR using [Excomungadora de pobre]'
+[18:48:06 WARN]: PdR moved wrongly!
+[19:11:03 WARN]: PdR moved wrongly!
+[19:11:57 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[19:11:57 INFO]: Velho_loli joined the game
+[19:11:57 INFO]: Velho_loli[/187.17.45.121:28815] logged in with entity id 1102420 at ([world]-226.6693961972916, 68.0, 15.678056893202905)
+[19:14:02 INFO]: Velho_loli lost connection: Disconnected
+[19:14:02 INFO]: Velho_loli left the game
+[19:14:22 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[19:14:22 INFO]: Velho_loli joined the game
+[19:14:22 INFO]: Velho_loli[/187.17.45.121:29776] logged in with entity id 1103425 at ([world]-177.40682889470114, 67.9375, 25.897981282788702)
+[19:34:57 INFO]: PdR experienced kinetic energy
+[19:40:13 INFO]: PdR experienced kinetic energy
+[19:48:35 INFO]: PdR lost connection: Disconnected
+[19:48:35 INFO]: PdR left the game
+[19:48:57 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[19:48:57 INFO]: PdR joined the game
+[19:48:57 INFO]: PdR[/179.187.229.145:49723] logged in with entity id 1117951 at ([world]-537.3108852388352, 16.0, 16.210753343605365)
+[20:08:03 INFO]: PdR lost connection: Disconnected
+[20:08:03 INFO]: PdR left the game
+[20:08:59 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[20:08:59 INFO]: PdR joined the game
+[20:08:59 INFO]: PdR[/179.187.229.145:57413] logged in with entity id 1124262 at ([world]-536.289344124423, 16.0, 15.720227536596141)
+[20:16:50 INFO]: Villager EntityVillager['Farmer'/544, uuid='d4276be8-e534-46e5-b41c-bb864226e11b', l='ServerLevel[world]', x=-532.70, y=15.94, z=43.32, cpos=[-34, 2], tl=4365843, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[20:16:52 INFO]: Villager EntityVillager['Farmer'/554, uuid='6f111422-7b68-4b5f-80d4-af321884b838', l='ServerLevel[world]', x=-522.69, y=15.94, z=48.36, cpos=[-33, 3], tl=3061449, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[20:21:03 INFO]: PdR lost connection: Disconnected
+[20:21:03 INFO]: PdR left the game
+[20:21:14 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[20:21:14 INFO]: PdR joined the game
+[20:21:14 INFO]: PdR[/179.187.229.145:65094] logged in with entity id 1127800 at ([world]-534.0187636684444, 16.0, 33.11769424064837)
+[20:23:38 INFO]: Villager EntityVillager['Villager'/1126963, uuid='b8ff070e-fd55-456a-9ac2-21ae183fff20', l='ServerLevel[world]', x=-476.86, y=10.00, z=15.15, cpos=[-30, 0], tl=7078, v=true] died, message: 'Villager hit the ground too hard'
+[20:28:52 INFO]: Velho_loli fell from a high place
+[20:48:52 INFO]: Velho_loli lost connection: Disconnected
+[20:48:52 INFO]: Velho_loli left the game
+[20:49:56 INFO]: PdR experienced kinetic energy
+[21:28:22 INFO]: UUID of player odanilas is 91d0df8b-c71c-3e41-af26-3f42713a34ac
+[21:28:22 INFO]: odanilas joined the game
+[21:28:22 INFO]: odanilas[/187.78.213.27:58249] logged in with entity id 1139959 at ([world]-302.7790366249783, 77.0, -17.69999998807907)
+[21:28:47 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[21:28:47 INFO]: Velho_loli joined the game
+[21:28:47 INFO]: Velho_loli[/187.17.45.121:40653] logged in with entity id 1140268 at ([world]-355.1222275910726, 64.0, 30.658562335516724)
+[21:31:10 INFO]: odanilas lost connection: Disconnected
+[21:31:10 INFO]: odanilas left the game
+[21:59:30 WARN]: PdR moved wrongly!
+[21:59:31 WARN]: PdR moved wrongly!
+[21:59:31 WARN]: PdR moved wrongly!
+[21:59:31 WARN]: PdR moved wrongly!
+[21:59:31 WARN]: PdR moved wrongly!
+[21:59:32 WARN]: PdR moved wrongly!
+[22:02:14 INFO]: PdR fell out of the world
+[22:10:30 INFO]: Velho_loli fell from a high place
+[22:16:00 INFO]: Velho_loli lost connection: Disconnected
+[22:16:00 INFO]: Velho_loli left the game
+[22:18:47 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[22:18:47 INFO]: Velho_loli joined the game
+[22:18:47 INFO]: Velho_loli[/187.17.45.121:45493] logged in with entity id 1156185 at ([world]-357.5331991451647, 34.0, 31.30000001192093)
+[22:18:55 INFO]: Villager EntityVillager['Villager'/1154386, uuid='d62542c1-0cf8-4f17-b23e-3f801cbcbd8d', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=10651, v=true] died, message: 'Villager hit the ground too hard'
+[22:45:27 WARN]: Velho_loli moved wrongly!
+[22:48:34 INFO]: Velho_loli fell from a high place
+[22:51:33 WARN]: Velho_loli was kicked for floating too long!
+[22:51:33 INFO]: Velho_loli lost connection: Flying is not enabled on this server
+[22:51:33 INFO]: Velho_loli left the game
+[22:59:31 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[22:59:31 INFO]: Velho_loli joined the game
+[22:59:31 INFO]: Velho_loli[/187.17.45.121:49827] logged in with entity id 1167760 at ([world]-354.8070475136109, 36.0361253090856, 30.98470913580236)
+[23:13:40 WARN]: Velho_loli was kicked for floating too long!
+[23:13:40 INFO]: Velho_loli lost connection: Flying is not enabled on this server
+[23:13:40 INFO]: Velho_loli left the game
+[23:13:57 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[23:13:57 INFO]: Velho_loli joined the game
+[23:13:57 INFO]: Velho_loli[/187.17.45.121:54632] logged in with entity id 1172857 at ([world]-354.22018842445993, 46.277123562272614, 30.342419418810046)
+[23:33:31 INFO]: Velho_loli hit the ground too hard
+[23:41:24 INFO]: Velho_loli lost connection: Timed out
+[23:41:24 INFO]: Velho_loli left the game
+[23:42:16 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[23:42:16 INFO]: Velho_loli joined the game
+[23:42:16 INFO]: Velho_loli[/187.17.45.121:56223] logged in with entity id 1183811 at ([world]-354.4259290617724, 63.0, 26.156481273438814)
+[23:51:55 WARN]: PdR moved wrongly!
+[23:55:34 INFO]: Velho_loli fell out of the world
+[23:55:50 INFO]: UUID of player DoragonBuse is e4c097dd-fc68-382f-a60d-a5b441d3f3f1
+[23:55:50 INFO]: DoragonBuse joined the game
+[23:55:50 INFO]: DoragonBuse[/187.74.47.137:57741] logged in with entity id 1191615 at ([world]-500.2702377314807, 63.0, -879.4117257814097)
+[23:57:36 WARN]: Velho_loli moved wrongly!
+[23:57:42 INFO]: [Not Secure] <DoragonBuse> n
+[23:58:05 INFO]: Velho_loli experienced kinetic energy
+[23:58:30 INFO]: DoragonBuse drowned
+[23:58:59 INFO]: [Not Secure] <PdR> -530 56
+[23:59:38 INFO]: DoragonBuse drowned
+[00:05:17 WARN]: Velho_loli moved too quickly! -23.475088248518773,-4.846721429005584,-5.025064474988478
+[00:18:11 INFO]: DoragonBuse fell from a high place
+[00:23:47 INFO]: DoragonBuse lost connection: Disconnected
+[00:23:47 INFO]: DoragonBuse left the game
+[01:20:46 WARN]: Velho_loli moved wrongly!
+[01:27:15 WARN]: PdR moved wrongly!
+[01:39:13 INFO]: Velho_loli lost connection: Disconnected
+[01:39:13 INFO]: Velho_loli left the game
+[01:53:23 INFO]: Villager EntityVillager['Farmer'/567, uuid='791f8ae3-55fa-4193-92f0-d288020b9423', l='ServerLevel[world]', x=-520.30, y=15.94, z=59.70, cpos=[-33, 3], tl=5122971, v=true] died, message: 'Farmer was slain by PdR using [Excomungadora de pobre]'
+[02:22:27 INFO]: Villager EntityVillager['Villager'/1273396, uuid='3263237e-ad33-4cbe-8e6c-d0eaadbb9b8a', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=254, v=true] died, message: 'Villager hit the ground too hard'
+[02:46:16 INFO]: Villager EntityVillager['Farmer'/760260, uuid='28021de7-89d4-41b8-80ce-c4c0db0cf5fe', l='ServerLevel[world]', x=-524.58, y=15.94, z=72.79, cpos=[-33, 4], tl=1271568, v=true] died, message: 'Farmer was slain by PdR'
+[03:03:40 INFO]: Villager EntityVillager['Villager'/1294110, uuid='bf6dcb0c-3390-4f8b-8f37-0b9c848a4285', l='ServerLevel[world]', x=-476.15, y=14.00, z=17.86, cpos=[-30, 1], tl=726, v=true] died, message: 'Villager hit the ground too hard'
+[04:16:14 INFO]: Villager EntityVillager['Villager'/1324308, uuid='73012b27-4e11-45ec-82f1-a195c9bbe71b', l='ServerLevel[world]', x=-476.86, y=10.00, z=15.52, cpos=[-30, 0], tl=17156, v=true] died, message: 'Villager hit the ground too hard'
+[04:44:08 INFO]: PdR lost connection: Disconnected
+[04:44:08 INFO]: PdR left the game
+[13:26:42 INFO]: UUID of player ServerSmoocher71 is 6256af56-2a0d-3cc2-ae88-8853f6adfae4
+[13:26:42 INFO]: ServerSmoocher71 joined the game
+[13:26:42 INFO]: ServerSmoocher71[/169.150.196.18:52254] logged in with entity id 1345408 at ([world]-227.5, 68.0, -58.5)
+[13:26:42 INFO]: ServerSmoocher71 issued server command: /pl
+[13:26:42 INFO]: [Not Secure] <ServerSmoocher71> /pl
+[13:26:48 INFO]: ServerSmoocher71 lost connection: Disconnected
+[13:26:48 INFO]: ServerSmoocher71 left the game
+[13:26:55 INFO]: UUID of player Henrickxx is 837aeea8-7914-33db-99f2-f01d91636a5b
+[13:26:55 INFO]: Henrickxx joined the game
+[13:26:55 INFO]: Henrickxx[/169.150.196.18:44954] logged in with entity id 1345555 at ([world]-573.4186124460331, 64.0, 1.2498127221295598)
+[13:26:55 INFO]: Henrickxx issued server command: /pl
+[13:26:55 INFO]: [Not Secure] <Henrickxx> /pl
+[13:27:01 INFO]: Henrickxx lost connection: Disconnected
+[13:27:01 INFO]: Henrickxx left the game
+[13:27:20 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[13:27:20 INFO]: PdR joined the game
+[13:27:20 INFO]: PdR[/169.150.196.18:46668] logged in with entity id 1345777 at ([world]-537.9088386989748, 16.0, 14.538236558991349)
+[13:27:20 INFO]: PdR issued server command: /pl
+[13:27:20 INFO]: [Not Secure] <PdR> /pl
+[13:27:26 INFO]: PdR lost connection: Disconnected
+[13:27:26 INFO]: PdR left the game
+[13:27:29 INFO]: UUID of player odanilas is 91d0df8b-c71c-3e41-af26-3f42713a34ac
+[13:27:30 INFO]: odanilas joined the game
+[13:27:30 INFO]: odanilas[/169.150.196.18:33570] logged in with entity id 1345965 at ([world]-513.8715061025755, 16.0, 31.444261738824473)
+[13:27:30 INFO]: [Not Secure] <odanilas> /pl
+[13:27:30 INFO]: odanilas issued server command: /pl
+[13:27:36 INFO]: UUID of player Aralc_HD is 47220475-2af0-3d46-a16b-98800f263ba2
+[13:27:36 INFO]: Aralc_HD joined the game
+[13:27:36 INFO]: Aralc_HD[/169.150.196.18:33582] logged in with entity id 1346155 at ([world]-491.0696850623521, 64.0, 39.18601452411968)
+[13:27:36 INFO]: [Not Secure] <Aralc_HD> /pl
+[13:27:36 INFO]: odanilas lost connection: Disconnected
+[13:27:36 INFO]: odanilas left the game
+[13:27:36 INFO]: Aralc_HD issued server command: /pl
+[13:27:43 INFO]: Aralc_HD lost connection: Disconnected
+[13:27:43 INFO]: Aralc_HD left the game
+[13:27:49 INFO]: UUID of player Velho_loli is eb6cd852-45cb-3746-ac0a-93ddb1b6d377
+[13:27:49 INFO]: Velho_loli joined the game
+[13:27:49 INFO]: Velho_loli[/169.150.196.18:57712] logged in with entity id 1346241 at ([world]-493.30000001192093, 34.0, -29.67635366301822)
+[13:27:50 INFO]: Velho_loli issued server command: /pl
+[13:27:50 INFO]: [Not Secure] <Velho_loli> /pl
+[13:27:56 INFO]: Velho_loli lost connection: Disconnected
+[13:27:56 INFO]: Velho_loli left the game
+[13:28:12 INFO]: UUID of player PdR2 is 123f3948-7666-358f-bfe4-35878c1ff01b
+[13:28:12 INFO]: PdR2 joined the game
+[13:28:12 INFO]: PdR2[/169.150.196.18:37340] logged in with entity id 1346393 at ([world_nether]-503.69999998807907, 236.0, -11.300000011920929)
+[13:28:13 INFO]: PdR2 issued server command: /pl
+[13:28:13 INFO]: [Not Secure] <PdR2> /pl
+[13:28:19 INFO]: PdR2 lost connection: Disconnected
+[13:28:19 INFO]: PdR2 left the game
+[13:28:38 INFO]: UUID of player DoragonBuse is e4c097dd-fc68-382f-a60d-a5b441d3f3f1
+[13:28:38 INFO]: DoragonBuse joined the game
+[13:28:38 INFO]: DoragonBuse[/169.150.196.18:58836] logged in with entity id 1346462 at ([world]-556.2530153991518, 61.0, 115.90592703741335)
+[13:28:38 INFO]: [Not Secure] <DoragonBuse> /pl
+[13:28:38 INFO]: DoragonBuse issued server command: /pl
+[13:28:45 INFO]: DoragonBuse lost connection: Disconnected
+[13:28:45 INFO]: DoragonBuse left the game
+[13:34:51 INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[13:34:51 INFO]: PdR joined the game
+[13:34:51 INFO]: PdR[/179.187.229.145:49321] logged in with entity id 1346736 at ([world]-537.9088386989748, 16.0, 14.538236558991349)
+[14:03:09 INFO]: Villager EntityVillager['Villager'/1361919, uuid='18ea3d9e-9285-42e2-9603-6980605a2b05', l='ServerLevel[world]', x=-476.15, y=10.00, z=15.15, cpos=[-30, 0], tl=1634, v=true] died, message: 'Villager hit the ground too hard'
+[14:24:08 INFO]: Villager EntityVillager['Villager'/1372224, uuid='83b8b240-6b6b-4e33-a4d1-5730ba18fa83', l='ServerLevel[world]', x=-476.85, y=14.00, z=17.86, cpos=[-30, 1], tl=2718, v=true] died, message: 'Villager hit the ground too hard'
+[15:49:15 INFO]: PdR lost connection: Disconnected
+[15:49:15 INFO]: PdR left the game
+[15:57:52 INFO]: Stopping server
+[15:57:52 INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[15:57:52 INFO]: [DiscordSRV] Saved linked accounts in 10ms
+[15:57:53 ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
+[15:57:53 ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
+[15:57:53 INFO]: [DiscordSRV] Shutdown completed in 479ms
+[15:57:53 INFO]: Saving players
+[15:57:53 INFO]: Saving worlds
+[15:57:53 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:57:53 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:57:53 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:57:53 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:57:53 INFO]: [ChunkHolderManager] Saved 11 block chunks, 222 entity chunks, 1 poi chunks in world 'world' in 0.06s
+[15:57:53 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:57:53 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:57:53 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:57:53 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:57:53 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:57:54 INFO]: [ChunkHolderManager] Saved 176 block chunks, 216 entity chunks, 0 poi chunks in world 'world_nether' in 0.23s
+[15:57:54 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:57:54 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:57:54 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:57:54 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:57:54 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:57:54 INFO]: [ChunkHolderManager] Saved 347 block chunks, 39 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[15:57:54 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:57:54 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:57:54 INFO]: Flushing Chunk IO
+[15:57:54 INFO]: Closing Thread Pool
+2023-01-18 15:57:54,149 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[15:57:54 INFO]: Closing Server

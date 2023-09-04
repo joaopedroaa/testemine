@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "85cad755-f50e-36bb-b887-812f7e118fa6",
+    "name": "TeamAzureOnTop",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "acf0ad6a-e575-3e66-9a10-1c61b07cff50",
+    "name": "TeamAzure",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "123f3948-7666-358f-bfe4-35878c1ff01b",
+    "name": "PdR2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88",
+    "name": "PdR",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
