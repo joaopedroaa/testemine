@@ -1,0 +1,36 @@
+[14:47:30] [User Authenticator #1/INFO]: UUID of player PdR is 793f5b51-cb4d-3ddc-9eb8-5d7dbffc7b88
+[14:47:30] [Server thread/INFO]: PdR joined the game
+[14:47:30] [Server thread/INFO]: PdR[/177.192.6.177:2263] logged in with entity id 247 at ([world]-1219.288363851294, 82.0, 508.4450983869117)
+[14:50:30] [Server thread/INFO]: Stopping server
+[14:50:30] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[14:50:30] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[14:50:30] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[14:50:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[14:50:30] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[14:50:30] [Server thread/INFO]: Saving players
+[14:50:30] [Server thread/INFO]: PdR lost connection: Server closed
+[14:50:30] [Server thread/INFO]: PdR left the game
+[14:50:30] [Server thread/INFO]: Saving worlds
+[14:50:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:50:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:50:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:50:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:50:30] [WebSocketConnectReadThread-73/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 143 block chunks, 190 entity chunks, 0 poi chunks in world 'world' in 0.20s
+[14:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:50:31] [Server thread/INFO]: Flushing Chunk IO
+[14:50:31] [Server thread/INFO]: Closing Thread Pool
+[14:50:31] [Server thread/INFO]: Closing Server
